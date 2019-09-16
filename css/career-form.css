@@ -1,0 +1,29 @@
+.input-group .input-group-addon {
+    /* backgroun2d-color: #c54041;
+    border: 1px solid #c54041; */
+    color: #fff;
+}
+.card-block-box {
+    /* background: #fdfbfb; */
+    background: #f9f9f9f2;
+    border-radius: 3px;
+    height:250px;
+    box-shadow: 0px 2px 6px 0px #e0dbdb;
+}
+.background-block {
+	/* min-height: 500px; */
+    background-image: url(../images/careers/form-bg-new-1.png);
+    /* position: relative; */
+    width: 100%;
+}
+.form-group captcha-box{
+    margin-top:10px;
+}
+.error.redColor span{
+    color: #c54041;
+    visibility: visible;
+}
+.error.redColor {
+    color: #c54041;
+    visibility: visible;
+}

@@ -1,0 +1,63 @@
+.mar-top-30 {
+    margin-top: 12px
+}
+.footer-primary-link {
+    width: 35%;
+    margin-top:19px;
+}
+
+a.link-footer:hover {
+    color: #c54041;
+    font-weight: 700
+}
+.general-team {
+    min-height: 500px;
+    background-image: url(../images/parallex/team-8.jpg);
+    position: relative;
+    width: 100%
+}
+@media only screen and (max-width:1280px) {
+    .xs-padding-0-80 {
+        padding: 0 80px
+    }
+
+@media(max-width:480px) {
+    .footer-primary-link li{
+        padding:0 15px;
+    }
+    .footer-secondary-link{
+        width:700%;
+    }
+    .banner .content .main-heading-inner{
+        margin-bottom:0px;
+    }
+}
+@media(max-width:768px) {
+
+    .mobile-dev-image img {
+        max-width: 50%
+    }
+    .sm-padding-0-20 {
+        padding: 0 20px
+    }
+    .sm-margin-top-300 {
+        margin-top: 300px
+    }
+    .services-section-new-content {
+        min-height: 260px
+    }
+}
+@media(max-width:767px) {
+    .banner .content.do-it-content {
+        margin-bottom: -20px
+    }
+    .font-size-16 {
+        font-size: 21px
+    }
+    .font-size-26 {
+        font-size: 15px
+    }
+    .mar-bot-35 {
+        margin-bottom: 20px
+    }
+}

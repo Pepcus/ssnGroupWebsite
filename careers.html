@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html class="no-js" lang = "en-us">
+<head>
+	<meta charset="utf-8">
+    <meta name = "description" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
+    <link rel="icon" href="images/logo/favicon.ico" type="image/x-icon">
+	<title>Pepcus: Our Careers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-transitions.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mosaic.min.css">
+    <link rel="stylesheet" href="css/demo.min.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/careers.css">
+</head>
+<body id = "page">
+	<div class="loading">
+        <div class="loading-image">
+            <img src="images/loader/loader.gif" data-src="images/loader/loader.gif" class="lazy" alt="loader" />
+        </div>
+    </div>
+        <!-- nav starts -->
+        <div id="error-wrapper-block"></div>
+        <div id="error-wrapper">
+        <section id="nav-header"></section>
+        </div>
+        <!-- nav ends -->
+
+        <!-- banner starts -->
+        <section>
+            <div id="section-header"></div>
+        </section>
+        <!-- banner ends -->
+
+        <!-- Join us section starts -->
+        <section>
+            <div class = "container">
+                <div id="section-title"></div>
+            </div>
+        </section>
+        <!-- join us section ends -->
+
+        <!-- current opening section starts -->
+        <section>
+            <div class = "services-section montserrat-font-family overflow-hidden sky-light padding-75-0-0 xxs-padding-30">
+                <div class="container-fluid padding-0" id="current-opening-wrapper">
+                    <div id="opening-title-wrapper"></div>
+                    <div id="modal-content-wrapper"></div>
+                    <div class="mosaic jQueryMosaic" id="mosaic"></div>
+                    <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 clients">
+                        <div class = "services-section-head">
+                            <div id="services-title"></div>
+                            <section class="client-container text-center">
+                                <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 tech-expertise-slider">
+                                    <div class = "owl-carousel slider" id = "slider"></div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- current opening section ends -->
+        <!-- gallery section starts -->
+        <section class = "gallery-blog clear-both">
+            <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 montserrat-font-family mar-50-auto">
+                <div id="gallery-slider-title"></div>
+            </div>
+            <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 mar-bot-50 gallery-section-slider">
+                <div class = "slider2 owl-carousel" id = "slider2"></div>
+            </div>
+            <div class = "explore-more-btn clear-both text-center mar-bot-50 text-uppercase" id="explore-btn"></div>
+        </section>
+        <!-- gallery section ends -->
+
+        <footer class="montserrat-font-family clear-both">
+            <div class="footer-link padding-50-0">
+                <div class="container">
+                    <div class="col-md-8 col-sm-12 col-xxs-12 sm-overflow-hidden" id="footer-block">
+                        <div class="footer-primary-link col-sm-4" id="footer-primary">
+                        </div>
+                        <div class="footer-secondary-link col-sm-8" id="footer-secondary">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xxs-12">
+                        <div class="footer-desc padding-50-25 secondary-color">
+                            <div class="footer-desc-head" id="footer-logo-block"></div>
+                            <div class="footer-desc-para font-size-16 mar-bot-15" id="footer-para-block"></div>
+                            <div class="padding-0-0-20" id="footer-social-icon"></div>
+                            <div class="footer-desc-link" id="footer-desc-link"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-section"></div>
+        </footer>
+        <!-- footer section ends -->
+
+
+            <script type='application/javascript' src="js/jquery-1.9.1.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="js/owl.carousel.js"></script>
+            <script type = "text/javascript" src = "js/jquery.fancybox.min.js"></script>
+            <script type="text/javascript" src="js/lazyload.min.js"></script>
+            <script type='application/javascript' src="js/jquery.mosaic.js"></script>
+            <script type='application/javascript' src="js/custom.min.js"></script>
+            <script type="text/javascript" charset="utf-8">
+    	$(function() {
+            $(document).ready(function() {
+
+                $(window).load(function() {
+                    $('.loading').hide();
+                });
+                $('#mosaic').Mosaic();
+            });
+            });
+        if($("#mosaic > div").length === 1) {
+          $("#mosaic > div").css("width", "100%");
+        }
+        // Get the modal
+        // When the user clicks the button, open the modal
+        function openModal(clicked_id) {
+          var modalnew = document.getElementById(clicked_id);
+          modalnew.style.display = "block";
+          document.body.style.overflow = "hidden";
+        }
+        function closeModal(clicked_id) {
+          var modalClose = document.getElementById(clicked_id);
+          modalClose.style.display = "none";
+          document.body.style.overflow = "auto";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target.className === "modal") {
+            event.target.style.display = "none";
+            document.body.style.overflow = "auto";
+          }
+        };
+        //render dynamic data......::
+
+        var renderNavWrapper = function(navWrapper) {
+          $.each(navWrapper, function(key, value) {
+            var htmlNavLink = "";
+            $.each(value.navbarNavLink, function(key,desc) {
+              console.log("careers html nav link", desc.navHref);
+              className = desc.class ? desc.class : '' ;
+              htmlNavLink += "<li class=\""+className+"\"><a href=\""+desc.navHref+"\">"+desc.navLink+"</a>" +
+                "</li>";
+            });
+            var htmlRender = "<nav class=\"navbar navbar-inverse navbar-fixed-top header-menu\">" +
+              "<div class=\"container\">" +
+              "<div class=\"navbar-header\">" +
+              "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">" +
+              "<span class=\"icon-bar\"></span>" +
+              "<span class=\"icon-bar\"></span>" +
+              "<span class=\"icon-bar\"></span>" +
+              "</button>" +
+              "<a class=\"navbar-brand\" href=\"index.html\"><img width=\"75\" src=\""+value.navLogoSrc+"\" alt=\"Logo-new\" /></a>" +
+              "</div>" +
+              "<div class=\"collapse navbar-collapse\" id=\"myNavbar\">" +
+              "<ul class=\"nav navbar-nav navbar-right text-uppercase\">" +
+                htmlNavLink +
+              "</ul>" +
+              "</div>" +
+              "</div>" +
+              "</nav>";
+            $(htmlRender).appendTo("#nav-header");
+
+          });
+        };
+
+        var renderBackgroundHeader = function(bgHeader) {
+          $.each(bgHeader, function(key, value) {
+            var htmlRender = "<div class=\"general-banner montserrat-font-family\">" +
+              "<div class=\"banner parallax general-team white-color flex-center text-center\">" +
+              "<div class=\"container\">" +
+              "<div class=\"content\">" +
+              "<h1 class=\"main-heading-inner font-size-50 font-bold\">"+value.headerTitle+"</h1>" +
+              "</div>" +
+              "</div>" +
+              "</div>" +
+              "</div>";
+            $(htmlRender).appendTo("#section-header");
+          });
+        };
+        var renderHeader = function (headerInfo) {
+          $.each(headerInfo, function(key, value) {
+            var htmlRender = "<div class =\"col-lg-8 col-lg-offset-2 montserrat-font-family mar-50-auto pull-none\">" +
+              "<h3 class = \"font-size-40 line-height-13 font-bold text-center\">" + value.title + "</h3>" +
+              "<p class = \"secondary-color weight-300-height-16 font-size-26  text-center mar-top-10\">" + value.description +
+              "</p>" +
+              "</div>";
+            $(htmlRender).appendTo("#section-title");
+          });
+        };
+        var renderOpeningHeader = function(openingTitle) {
+          $.each(openingTitle, function(key, value) {
+            var htmlRender = "<div class = \"services-section-head\">" +
+              "<h3 class = \"font-size-40 primary-color mar-bot-35 text-center font-bold\">" +
+              value.openingSectionTitle +
+              "</h3>" +
+              "</div>";
+            $(htmlRender).appendTo("#opening-title-wrapper");
+          });
+        };
+
+        var renderModalContent = function(modalContent) {
+
+          $.each(modalContent, function(key, value) {
+
+            var htmlRenderJobList = "", htmlRenderKeyList = "", htmlRenderSkillList = "";
+            $.each(value.jobDescription, function(key,desc){
+              htmlRenderJobList += "<li>"+desc+"</li>";
+            });
+            $.each(value.keyActivities, function(key,desc){
+              htmlRenderKeyList += "<li>"+desc+"</li>";
+            });
+            $.each(value.keySkills, function(key,desc){
+              htmlRenderSkillList += "<li>"+desc+"</li>";
+            });
+            var htmlRender = "<div id=\""+value.modalContentId+"\" class=\"modal\">" +
+              " <div class=\"modal-content\">" +
+              "  <div class=\"modal-heading\">" +
+              " <span class=\"close modal-close\" onclick=\"closeModal(\'"+value.closeModalText+"\')\">&times</span>" +
+              " <span class=\"font-size-20\">"+value.modalContentHeading+"</span>" +
+              " </div>" +
+              " <div class=\"modal-wrapper\">" +
+              "  <div\">" +
+              " <div class = \"wrapper-text-para\">" +
+              " <h3 class = \"font-size-16 grey-color font-bold\"> "+value.modalLocationHeading+"<span>"+value.modalLocationText+"</span></h3>" +
+              " </div>" +
+              " <div>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.modalContentExperience+"<span>"+value.modalContentExperienceText+"</span></h3>" +
+              " </div>" +
+              " <div>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.jobDescriptionTitle+"</h3>" +
+              " <div class = \"list-block\">" +
+              " <ul class = \"padding-left-50\">" +htmlRenderJobList+
+              " </ul>" +
+              " </div>" +
+              " </div>" +
+              " <div>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+ (value.keyActivitiesTitle ? value.keyActivitiesTitle : '') +"</h3>" +
+              " <div class = \"list-block\">" +
+              "  <ul class = \"padding-left-50\">" +htmlRenderKeyList+
+              "</ul>" +
+              "  </div>" +
+              "  </div>" +
+              "<div>" +
+              "<h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.KeySkillsTitle+"</h3>" +
+              " <div class = \"list-block\">" +
+              " <ul class = \"padding-left-50\">" +htmlRenderSkillList+
+              " </ul>" +
+              "<div class=\"container2\">\n" +
+              "<a href = \"mailto:careers@pepcus.com?\" class = \"btn btn-apply white-color text-uppercase font-weight-600\" target = \"_self\">Apply now</a>"+"</div>"+
+              "</div>"+
+              "</div>" +
+              "</div>" +
+              "</div>" +
+              " </div>" +
+              " </div>";
+
+            $(htmlRender).appendTo("#modal-content-wrapper");
+            // Get the modal
+            // When the user clicks the button, open the modal
+            function openModal(clicked_id) {
+
+              var modalnew = document.getElementById(clicked_id);
+              modalnew.style.display = "block";
+            }
+            function closeModal(clicked_id) {
+              var modalClose = document.getElementById(clicked_id);
+              modalClose.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target.className === "modal") {
+                event.target.style.display = "none";
+              }
+            };
+
+            });
+
+        };
+
+        var renderOpeningSection = function(openingBlock) {
+          $.each(openingBlock, function(key, value) {
+            var htmlRender = "<div class=\" "+ value.jobDivBackgroundClass +" padding-0 card-hover card-parallax card-mobile-height" +value.jobDivWidthClass+  " \">" +
+              "<a onclick=\"openModal(\'"+value.onclickOpenModal+"\')\" target=\"_self\" >" +
+              "<div class=\"card\">" +
+              "<div class = \"card-heading\">" +
+              "<h2 class = \"font-size-32 card-head-hover\">"+value.jobTitle+"</h2>" +
+              "<p class = \"line-height-16 font-size-14 mar-top-15\">"+value.jobShortDescription +"</p>" +
+              "<h3 class = \"font-size-18 mar-top-15\">"+ value.jobLocation+"</h3>" +
+              "<div class = \"card-btn btn btn-more\">" +
+              "<span class=\"font-size-14\">"+value.jobBtn+"</span>" +
+              "</div>" +
+              "</div>" +
+              "</div>" +
+              "</a>" +
+              "</div>";
+            $(htmlRender).appendTo("#mosaic");
+            $('#mosaic').Mosaic();
+            // Get the modal
+            // When the user clicks the button, open the modal
+            function openModal(clicked_id) {
+              var modalnew = document.getElementById(clicked_id);
+              modalnew.style.display = "block";
+              document.body.style.overflow = "hidden";
+            }
+            function closeModal(clicked_id) {
+              var modalClose = document.getElementById(clicked_id);
+              modalClose.style.display = "none";
+              document.body.style.overflow = "auto";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target.className === "modal") {
+                event.target.style.display = "none";
+                document.body.style.overflow = "auto";
+              }
+            };
+          });
+        };
+        var renderTechExpertiseTitle = function(techExpert) {
+          $.each(techExpert, function(key, value) {
+            var htmlRender1 = "<h3 class = \"font-size-40 primary-color mar-bot-35 text-center font-bold\">"
+               + value.techExpertiseHeader +
+              "</h3>";
+            $(htmlRender1).appendTo("#services-title");
+          });
+        };
+        var renderTechExpertiseSlider;
+        renderTechExpertiseSlider = function (techSlider) {
+          $('#slider').owlCarousel({
+            jsonPath: 'careers.json',
+            jsonSuccess: renderTechExpertiseSlider,
+            loop: true,
+            margin: 15,
+            item: 5,
+            dots: true,
+            navText: false,
+            slideSpeed: 200,
+            scrollPerPage: true,
+            slideBy: 5,
+            autoPlay: false,
+            autoPlayTimeout: 1800,
+            autoWidth: false,
+            slideTransition: 'linear',
+            autoPlayHoverPause: true,
+            responsiveClass: true,
+            itemsCustom : [
+              [0, 2],
+              [768, 4],
+              [1200, 5]
+            ],
+            responsive: {
+              0: {
+                item: 2,
+                nav: false,
+                dots: false,
+                pagination: false
+              },
+              600: {
+                item: 2,
+                mouseDrag: true,
+                touchDrag: true,
+                nav: false,
+                dots: false,
+                pagination: false,
+
+              },
+              1000: {
+                item: 5,
+                mouseDrag: true,
+                touchDrag: true,
+                nav: false,
+                dots: false
+              }
+            }
+          });
+          var content = "";
+          for (var i in techSlider["techExpertise"]) {
+
+            var img = techSlider["techExpertise"][i].img;
+            var alt = techSlider["techExpertise"][i].alt;
+            var iconSlider = techSlider["techExpertise"][i].iconSliderClass;
+            content += "<div class='item'>" +
+              "<div class='client-section'" + iconSlider + ">" +
+              "<a><img src=\"" + img + "\" alt=\"" + alt + "\" class='img-responsive'></a>" +
+              "</div></div>";
+          }
+          $("#slider").html(content);
+        };
+        var renderGallerySliderTitle = function(galleryTitle) {
+          $.each(galleryTitle, function(key, value) {
+            var htmlRender = "<h3 class = \"font-size-40 line-height-13 font-bold text-center\">"
+              + value.gallerySliderHeader +
+              "</h3>";
+            $(htmlRender).appendTo("#gallery-slider-title");
+          });
+        };
+        var renderGallerySlider = function(gallerySlider) {
+          $('.slider2').owlCarousel({
+            jsonPath : 'careers.json',
+            jsonSuccess : renderGallerySlider,
+            loop:true,
+            nav: true,
+            items:3,
+            navigation: true,
+            navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            margin:15,
+            navClass:["nav-prev", "nav-next"],
+            navigationClass:["nav-prev", "nav-next"],
+            autoplay:true,
+            slideSpeed : 600,
+            scrollPerPage : true,
+            dots: false,
+            autoPlay:true,
+            pagination: false,
+            slideTransition: 'linear',
+            autoWidth: false,
+            autoPlayHoverPause:true,
+            responsiveClass:true,
+            itemsCustom : [
+              [0,1],
+              [768, 3]
+            ],
+            responsive:{
+              0:{
+
+                items:1,
+                nav:false,
+                pagination: false,
+                page: false
+              },
+              600:{
+                items:2,
+                mouseDrag: true,
+                touchDrag: true,
+                nav:false,
+                pagination: false
+              },
+              1000:{
+                items:3,
+                mouseDrag: true,
+                touchDrag: true,
+                nav:true
+              }
+            }
+          });
+          $().fancybox({
+            prevEffect : 'false',
+            nextEffect : 'false',
+            closeBtn  : true,
+            arrows    : true,
+            nextClick : true,
+            'autoScale': true,
+            'transitionIn': 'elastic',
+            'transitionOut': 'elastic',
+            'speedIn': 500,
+            'speedOut': 300,
+            'autoDimensions': true,
+            'centerOnScroll': true,
+            prevSpeed : 250,
+            helpers: {
+              title : {
+                type : 'outside'
+
+              },
+              overlay : {
+                speedIn : 200,
+                opacity : 0.95
+              },
+              thumbs : {
+                width: 75,
+                height: 50
+              },
+              title : {
+                type : 'inside'
+              },
+
+              //buttons   : {}
+
+            }
+          });
+          var content = "";
+          for(var i in gallerySlider["gallerySliderWrapper"]) {
+
+            var img = gallerySlider["gallerySliderWrapper"][i].img;
+            var alt = gallerySlider["gallerySliderWrapper"][i].alt;
+            content += "<div class='item'>" +
+              "<a data-fancybox='gallery' href='"+img+"'>" +
+              "<img src=\"" +img+ "\" alt=\"" +alt+ "\" class='img-responsive'>" +
+              "</a></div>";
+          }
+          $("#slider2").html(content);
+        };
+        var exploreGalleryBtn = function(exploreBtn) {
+          $.each(exploreBtn, function(key, value) {
+            var htmlRender = "<a target = \"_blank\" href= \" "+value.exploreBtnHref+"\" class = \"btn btn-explore\">"+value.exploreBtnText+"</a>";
+            $(htmlRender).appendTo("#explore-btn");
+          });
+        };
+        var footerSectionHyperlink = function(footerHyperlink) {
+          $.each(footerHyperlink, function(key, value) {
+            var htmlRender = "<ul>" +
+              "<li><a href=\"index.html\" class=\"link-footer secondary-color\">"+value.footerPrimaryTitle+"</a></li>" +
+              "</ul>";
+            $(htmlRender).appendTo("#footer-primary");
+          });
+        };
+        var footerSecondaryTitle = function(footerSecondary) {
+          $.each(footerSecondary, function(key, value) {
+            var htmlRender = "<ul>" +
+              "<li><a href=\"services.html\" class=\"link-footer "+value.linkFooterClass+" secondary-color\">"+value.footerSecondaryTitle+"</a></li>" +
+              "</ul>";
+            $(htmlRender).appendTo("#footer-secondary");
+          });
+        };
+        var footerLogoWrapper = function(footerLogo) {
+          $.each(footerLogo, function(key, value) {
+            var htmlRender = "<div class=\"footer-logo footer-logo-small mar-bot-15\">" +
+              "<a href=\""+value.logoHref+"\"><img width=\""+value.logoWidth+"\" class=\"img-responsive\" src=\""+value.logoSrc+"\" alt=\"pepcus logo\" /></a>" +
+              "</div>";
+            $(htmlRender).appendTo("#footer-logo-block");
+          });
+        };
+        var footerParaWrapper = function(footerPara) {
+          $.each(footerPara, function(key, value) {
+            var htmlRender = "<p>" +value.para+ "</p>";
+            $(htmlRender).appendTo("#footer-para-block");
+          });
+        };
+        var footerSocialWrapper = function(footerSocialIcons) {
+          $.each(footerSocialIcons, function(key, value) {
+            //console.log("key", key, "valye", value,);
+            var htmlRender = "<a target=\"_self\" class=\"" +value.footerSocialClass+ "\"" +
+              " href=\""+value.footerSocialHref+"\"" +
+              " aria-label=\" "+value.footerLabel+" \"" +
+              " rel=\"noopener\">" +
+              (value.childComponent ? value.childComponent : '' )+
+              "</a>";
+            $(htmlRender).appendTo("#footer-social-icon");
+          });
+        };
+        var footerDescWrapper = function(footerDesc) {
+          $.each(footerDesc, function(key, value) {
+            var htmlRender = "<div>" +
+              "<a class=\" primary-color font-size-16 font-bold\" href=\"mailto:info@pepcus.com?\" target=\"_self\">" +value+
+              "</a>" +
+            "</div>";
+            $(htmlRender).appendTo("#footer-desc-link");
+          });
+        };
+
+        var footerDescTextWrapper = function(footerText) {
+          $.each(footerText, function(key, value) {
+            var htmlRender = "<div class=\"footer-copy padding-10-0\">" +
+              "<div class=\"container flex-center\">" +
+              "<div class=\"footer-desc-copy col-md-12 text-center\" id=\"footer-desc-text\"> " +
+              "<p class=\"font-weight-300 line-height-16\">" +
+              value.footerText +
+              "<a class=\"privacy-policy\" href=\" "+value.footerTextHref+" \">"+value.footerTextLink+"</a>" +
+              "</p>" +
+              "</div>" +
+              "</div>" +
+              "</div>";
+            $(htmlRender).appendTo("#footer-section");
+          });
+        };
+
+        var renderJOpage = function (data) {
+          renderNavWrapper(data.navigationWrapper);
+          renderBackgroundHeader(data.backgroundHeader);
+          renderHeader(data.headerData);
+          renderOpeningHeader(data.currentOpeningsTitle);
+          renderModalContent(data.currentOpeningsModalWrapper);
+          renderOpeningSection(data.currentOpeningSection);
+          renderTechExpertiseTitle(data.techExpertiseTitle);
+          renderTechExpertiseSlider(data.techExpertise);
+          renderGallerySliderTitle(data.gallerySliderTitle);
+          renderGallerySlider(data.gallerySliderWrapper);
+          exploreGalleryBtn(data.exploreGalleryButton);
+          footerSectionHyperlink(data.footerWrapper);
+          footerSecondaryTitle(data.footerSecondary);
+          footerLogoWrapper(data.pepcusFooterLogo);
+          footerParaWrapper(data.pepcusFooterPara);
+          footerSocialWrapper(data.footerSocialIcons);
+          footerDescWrapper(data.footerDescLink);
+          footerDescTextWrapper(data.footerDescText);
+        };
+
+        var renderErrorPage = function() {
+            var htmlRender = "<div class=\"background-error-page\"></div>";
+            $("#error-wrapper-block").append(htmlRender);
+        };
+
+        var fetchConfigAndRender = function () {
+          /*$.getJSON('careers.json', function (data) {
+            renderJOpage(data);
+          });*/
+          $.ajax({
+            url: 'careers.json',
+            dataType: 'json',
+            success: function( data ) {
+              renderJOpage(data);
+            },
+            error: function( data ) {
+              alert("ERROR: Not received JSON file  " + data );
+              $("#error-wrapper").css("display","none");
+              renderErrorPage();
+            }
+          });
+        };
+
+        // start
+        fetchConfigAndRender();
+
+            </script>
+</body>
+</html>
