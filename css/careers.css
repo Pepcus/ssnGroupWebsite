@@ -20,13 +20,16 @@
 .fa-angle-left{
 	font-size:40px;
 	top: 40%;
-	color: #ea1b3c;
+	color:#00ae6d;
+
+	/*color: #ea1b3c;*/
 	margin-left: -6px;
 }
 .fa-angle-right{
 	font-size:40px;
 	top: 40%;
-	color: #ea1b3c;
+	/*color: #ea1b3c;*/
+	color:#00ae6d;
 	margin-right: -10px;
 }
 /*.owl-prev {
@@ -229,7 +232,8 @@ a{
 	opacity: 1;
 }
 .btn-more {
-	background: #890606;
+	/*background: #890606;*/
+	background: #08915e;
 	cursor: pointer;
 	margin-top: 1em;
 	min-width:110px;

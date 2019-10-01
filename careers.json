@@ -1,7 +1,7 @@
 {
   "navigationWrapper" : [
     {
-      "navLogoSrc": "images/logo/logonew.png",
+      "navLogoSrc": "images/logo/ssn.png",
       "navbarNavLink" : [
         {
           "navHref" : "index.html",
@@ -629,9 +629,9 @@
   ],
   "pepcusFooterLogo" : [
     {
-      "logoSrc" : "images/logo/logo-small.png",
+      "logoSrc" : "images/logo/ssn1.png",
       "logoHref" : "index.html",
-      "logoWidth" : "50"
+      "logoWidth" : "150"
     }
   ],
   "pepcusFooterPara" : [
@@ -642,7 +642,7 @@
   "footerSocialIcons" : [
     {
       "footerSocialClass" : "fa fa-linkedin SocialMediaIcon social-media social-media-linkedin",
-      "footerSocialHref" : "https://www.linkedin.com/company/pepcus-software-services-pvt-ltd-/",
+      "footerSocialHref" : "sales@ssngroup.com",
       "footerLabel" : "Linkedin"
     },
     {
