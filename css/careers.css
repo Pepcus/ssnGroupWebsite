@@ -10,7 +10,7 @@
 }
 .general-team {
 	min-height: 500px;
-	background-image: url(../images/parallex/banner-image.jpg);
+	background-image: url(../images/parallex/banner-image.png);
 	position: relative;
 	width: 100%;
 }
@@ -153,7 +153,7 @@ a{
 	text-decoration: none;
 }
 .font-size-16 {
-	font-size:16px;
+	font-size:20px;
 }
 /*.card {*/
 /*position: relative;*/
@@ -470,7 +470,7 @@ svg {
 	text-shadow: 0 -1px -1px #005ea3;
 }
 .explore-more-btn .btn-explore {
-	background: -webkit-linear-gradient(#f23737,#b45252);
+	background: -webkit-linear-gradient(#00ae6d,#3c763d);
 	border: none;
 	padding: 15px;
 	color: white;
@@ -670,7 +670,7 @@ svg {
 	cursor: pointer;
 }
 .modal-heading {
-	background: #d6103c;
+	background: #00ae6d;
 	/*background: #464642;*/
 	padding: 25px;
 	color: white;
@@ -701,7 +701,7 @@ svg {
 	margin: 0 auto;
 	width: auto;}
 .btn-apply {
-	background: #d6103c;
+	background: #00ae6d;
 	padding: 10px;
 	display: inline-block;
 	height: 44px;
@@ -713,7 +713,7 @@ svg {
 }
 .btn-apply:hover, .btn-apply:focus {
 	color: #fff;
-	background: #b1072d;
+	background: #1f855f;
 	transition: 0.4s all;
 }
 

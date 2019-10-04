@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/logo/favicon.ico" type="image/x-icon">
-    <title>Pepcus: Contact</title>
+    <link rel="icon" href="images/logo/ssnfavicon.ico" type="image/x-icon">
+    <title>SSN Group: Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <!-- Bootstrap Core CSS -->
@@ -22,7 +22,7 @@
 </head>
 <body>
 <div class="loading">
-    <div class="loading-image"><img src="images/loader/loader.gif" alt="loader" /></div>
+    <div class="loading-image"><img src="images/loader/loadingspinner.gif" alt="loader" /></div>
 </div>
 
 <section>
@@ -308,16 +308,17 @@
     function init_map() {
         var myOptions = {
             zoom: 13,
-            center: new google.maps.LatLng(22.7272694, 75.88389440000003),
+            center: new google.maps.LatLng(38.9554403,-77.3837789,18.92),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
         marker = new google.maps.Marker({
             map: map,
-            position: new google.maps.LatLng(22.7272694, 75.88389440000003)
+            position: new google.maps.LatLng(38.9554403,-77.3837789,18.92)
         });
         infowindow = new google.maps.InfoWindow({
-            content: '<strong>Pepcus Software Services Private Limited.</strong><br>201 Balaji Corporate House New Palasia Indore MP<br>'
+            content: '<strong>SSN Group</strong><br>580 Herndon Pwy, Suite 700\n' +
+              'Herndon VA 20170<br>'
         });
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.open(map, marker);
@@ -359,7 +360,7 @@
                 <div class="footer-desc padding-50-0 secondary-color">
                     <div class="footer-desc-head">
                         <div class="footer-logo footer-logo-small mar-bot-15">
-                            <a href="index.html"><img width="150" class="img-responsive" src="images/logo/ssn1.png" alt="pepcus logo" /></a>
+                            <a href="index.html"><img width="150" class="img-responsive" src="images/logo/ssn1.png" alt="ssn logo" /></a>
                         </div>
                     </div>
                     <div class="footer-desc-para font-size-16 mar-bot-15"> We help customers to focus on their core business areas and let their IT needs be OUR RESPONSIBILITY.
@@ -373,7 +374,6 @@
                         <a class="abc" href="javascript:void(0);">
                             <span class="glassicon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify icon:simple-icons:glassdoor" data-inline="false" data-width="1em" data-height="1em" data-icon="simple-icons:glassdoor"><path d="M17.144 20.572H3.43A3.427 3.427 0 0 0 6.856 24h10.286a3.428 3.428 0 0 0 3.428-3.428V6.492a.123.123 0 0 0-.124-.125h-3.18a.125.125 0 0 0-.123.126v14.08zm0-20.572a3.429 3.429 0 0 1 3.427 3.43H6.858v14.078a.126.126 0 0 1-.125.125H3.554a.125.125 0 0 1-.125-.125V3.428A3.429 3.429 0 0 1 6.856 0h10.287" fill="currentColor"></path></svg></span>
                         </a>
-                        <a  class="fa fa-slideshare SocialMediaIcon" href="javascript:void(0);"></a>
                     </div>
 
                     <div class="footer-desc-link">
@@ -388,7 +388,7 @@
         <div class="container flex-center">
             <div class="footer-desc-copy col-md-12 text-center">
               <P class=" weight-300-height-16">
-                  Copyright ©2019 Pepcus Software Services Pvt. Ltd. All rights reserved. Read our <a class="privacy-policy" href="privacy.html">Privacy Policy</a>.
+                  Copyright ©2019 SSN Group. All rights reserved. Read our <a class="privacy-policy" href="#">Privacy Policy</a>.
               </P>
             </div>
         </div>

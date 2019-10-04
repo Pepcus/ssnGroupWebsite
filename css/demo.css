@@ -423,7 +423,8 @@ img#github-logo{
 }
 .primary-color {
     /*color: #c54041;*/
-    color: #00ae6d;
+    /*color: #00ae6d;*/
+    color: #014a95;
 }
 .secondary-color {
     color: #656565;
@@ -672,12 +673,15 @@ a.link-footer {
 }
 a.link-footer:hover{
     /*color: #c54041;*/
-    color: #00ae6d;
+    color: #95c52d;
     font-weight: bold;
     /*font-weight: 700*/
 }
 a:focus,a:hover{
     text-decoration: none;
+}
+.content-wrapper h4{
+    color:#014a95;
 }
 .footer-desc-para{
     line-height: 1.3;
@@ -706,7 +710,7 @@ footer{
     background: #383536;
 }
 .btn.btn-warning.btn-send{
-    background: #c54041;
+    background: #00ae6d;
 }
 .about-company-block{
     background-color: #f1f1f1;
@@ -725,10 +729,11 @@ footer{
 }
 .privacy-policy:hover {
     color: #fff;
+    text-decoration: underline;
 }
 .privacy-policy {
     color: #dbdbdb;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 .privacy-link {
     color: #c12e2a;
@@ -743,35 +748,35 @@ footer{
 }
 .general-img {
     min-height: 400px;
-    background-image: url("../images/parallex/general1.jpg");
+    background-image: url("../images/parallex/general1.png");
 }
 .strength-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/strength.jpg");
+    background-image: url("../images/innerpages/strength.png");
 }
 .cwd-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/cwd.jpg");
+    background-image: url("../images/innerpages/cwd.png");
 }
 .sta-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/sta.jpg");
+    background-image: url("../images/innerpages/sta.png");
 }
 .sm-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/sm.jpg");
+    background-image: url("../images/innerpages/sm.png");
 }
 .mobile-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/mobile.jpg");
+    background-image: url("../images/innerpages/mobile.png");
 }
 .startup-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/startup.jpg");
+    background-image: url("../images/innerpages/startup.png");
 }
 .op-img {
     min-height: 400px;
-    background-image: url("../images/innerpages/op.jpg");
+    background-image: url("../images/innerpages/op.png");
 }
 .goal-img {
     min-height: 400px;
@@ -779,15 +784,15 @@ footer{
 }
 .general1-img{
     min-height: 500px;
-    background-image: url("../images/parallex/services1.jpg");
+    background-image: url("../images/parallex/services1.png");
 }
 .general2-img{
     min-height: 500px;
-    background-image: url("../images/parallex/about1.jpg");
+    background-image: url("../images/parallex/about1.png");
 }
 .general-contact{
     min-height: 500px;
-    background-image: url("../images/parallex/contact1.jpg");
+    background-image: url("../images/parallex/contact1.png");
 }
 .parallax {
     /* Create the parallax scrolling effect */
@@ -795,6 +800,9 @@ footer{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.servicer-section-content{
+    height:240px;
 }
 .content-section p{
     margin-bottom: 10px;
@@ -841,11 +849,20 @@ footer{
 .team-section-img:hover .image-constant-hover {
     display: block;
 }
+a:hover {
+    color: #95c52d;
+}
+.footer-desc-link a{
+    color:#014a95;
+}
+.footer-desc-link a:hover{
+    color:#95c52d;
+}
 .primary-btn{
     display: inline-block;
     padding: 20px 40px;
     /*border: 1px solid #c54041;*/
-    border: 1px solid #00ae6d;
+    border: 1px solid #014a95;
     border-radius: 35px;
     text-decoration: none;
 }
@@ -861,6 +878,7 @@ footer{
     background: #00ae6d;
     color: #fff;
     text-decoration: none;
+    border:#00ae6d;
 }
 .primary-back{
     /*background-color: #c54041;*/
@@ -1070,7 +1088,7 @@ h1.loader-pepcus:before {
 }
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-    color: #585858;
+    color: #014a95;
 }
 .navbar-inverse .navbar-nav>li>a.primary-btn-pepcus {
     color: #fff;
@@ -1081,7 +1099,7 @@ h1.loader-pepcus:before {
 }
 .navbar-inverse .navbar-nav>li>a:hover {
     /*color: #c12e2a;*/
-    color: #00ae6d;
+    color: #95c52d;
 }
 .primary-btn-pepcus {
     background: #c12e2a;
@@ -1232,13 +1250,13 @@ h1.loader-pepcus:before {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 .navbar-inverse {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(245,245,245,0.96);
     border-color: transparent;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
     /*color: #c12e2a;*/
-    color: #00ae6d;
+    color: #95c52d;
 }
 /* header */
 .contact-quick >a .offHover {
@@ -1280,12 +1298,22 @@ h1.loader-pepcus:before {
     margin: 0 auto;
     border-radius: 50%;
     /*border: 1px solid #c54041;*/
-    border: 1px solid #00ae6d;
+    border: 1px solid #014a95;
+}
+.control-label span{
+    color:#00ae6d;
+}
+.captcha-label span{
+    color:#00ae6d;
+}
+#txtCaptchaDiv span{
+    color:#333;
 }
 .services-section-new-content:hover > .image-wrapper {
     /*background: #c54041;*/
     background:#00ae6d;
     color: #fff;
+    border:#00ae6d;
 }
 .services-section-img img{
     width: 100%;
@@ -1350,9 +1378,9 @@ a.readMore {
     -webkit-transition: all 1s; /* Safari */
     transition: all 1s;
 }
-.clients .client-container .client-section.mincron a img{
-    max-width: 210px;
-}
+/*.clients .client-container .client-section.mincron a img{*/
+/*    max-width: 210px;*/
+/*}*/
 .clients .client-container .client-section a img {
     max-width: 120px;
     margin: 0 15px;
@@ -1362,7 +1390,8 @@ a.readMore {
     transition: all 1s;
 }
 .clients {
-    padding: 150px 0;
+    /*padding: 150px 0;*/
+    padding:100px 0;
 }
 .right-arrow-icon {
     padding: 2px 15px;
@@ -2028,12 +2057,12 @@ svg{
         color: #dbd7d7;
     }
     .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-        border-color: #c54041;
-        background-color: #c54041;
+        border-color: #00ae6d;
+        background-color: #00ae6d;
     }
     .navbar-inverse .navbar-toggle {
-        border-color: #c54041;
-        background-color: #c54041;
+        border-color: #00ae6d;
+        background-color: #00ae6d;
     }
     .navbar-inverse .navbar-toggle .icon-bar {
         background-color: #fff;
@@ -2096,6 +2125,7 @@ svg{
     .footer-desc-copy {
         font-size: 10px;
     }
+
     .footer-logo {
         width: 40px;
         /*margin: 0 auto 10px;*/

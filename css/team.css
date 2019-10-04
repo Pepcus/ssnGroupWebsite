@@ -35,7 +35,7 @@ touch-action: manipulation;
     cursor: pointer;
     border-radius: 7%;
     transition: .5s ease;
-    background: rgba(113, 2, 2, .86)
+    background: rgba(59, 118, 58, 0.86);
 }
 .text {
     color: #dccccc;
@@ -228,13 +228,13 @@ touch-action: manipulation;
 }
 .general-team {
     min-height: 500px;
-    background-image: url(../images/parallex/teamTop1.jpg);
+    background-image: url(../images/parallex/teamssnupper.png);
     position: relative;
     width: 100%;
 }
 .footer-image {
     background-attachment: fixed;
-    background: url(../images/footer/CollageTeam.jpg);
+    background: url(../images/footer/team2ssn.png);
     position: relative;
     background-size: cover;
     width: 100%;
@@ -324,7 +324,7 @@ touch-action: manipulation;
         background-size: contain;
     }*/
     .general-team {
-        background-image: url("../images/parallex/teamTop1.jpg");
+        background-image: url("../images/parallex/teamssnupper.png");
         position:relative;
         width:100%;
         background-size: contain;
@@ -333,7 +333,8 @@ touch-action: manipulation;
         height: 685px;
     }
     .service-content-block1 {
-        height: 629px;
+        /*height: 629px;*/
+        height:300px;
     }
     .service-content-row4 {
         min-height: 244px;
