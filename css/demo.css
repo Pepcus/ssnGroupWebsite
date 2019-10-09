@@ -218,19 +218,19 @@ h1#i1{
 }
 h1#t1{
     top:30%;
-    left:38.5%;
+    left:40.5%;
 }
 h1#e1{
     top:30%;
-    left: 41%;
+    left: 43.5%;
 }
 h1#c2{
     top:30%;
-    left: 44%;
+    left: 47%;
 }
 h1#t2{
     top:30%;
-    left: 47%;
+    left: 50.5%;
 }
 h1#u1{
     top:30%;
@@ -238,7 +238,7 @@ h1#u1{
 }
 h1#r2{
     top:30%;
-    left:53%;
+    left:55%;
 }
 h1#e2{
     top:30%;
@@ -272,7 +272,7 @@ h1#goal{
     width: 600px;
 }
 h2#goal_para{
-    top: 45%;
+    top: 55%;
     right: 14%;
     text-align: center;
     font-size: 30px;
@@ -802,11 +802,17 @@ footer{
     background-size: cover;
 }
 .servicer-section-content{
-    height:240px;
+    height:275px;
 }
 .content-section p{
     margin-bottom: 10px;
     padding: 5px 0;
+    /*line-height: 2.6;*/
+}
+.content-section-service p{
+    margin-bottom: 10px;
+    padding: 5px;
+    line-height: 2.6;
 }
 .overflow-hidden{
     overflow: hidden;
@@ -1589,7 +1595,7 @@ svg{
         right:15%;
     }
     h2#goal_para{
-        top:50%;
+        top:57%;
         right:15%;
     }
     #exp{
@@ -1686,19 +1692,178 @@ svg{
     .section-head-content .image-wrapper img QA-Banner{
         width:100%;
     }
-    /*.img-responsive QA-Banner{*/
-    /*    width:100%;*/
-    /*}*/
 }
 @media(min-width:768px) and (max-width: 1024px){
     .section-head-content .image-wrapper img{
         width:100%;
     }
+    .anim-slider{
+        height:753px;
+    }
     .img-responsive img{
         width:100%;
     }
+    #big_no{
+        font-size:55px;
+        top:30%;
+        left:20%;
+        color:#fff;
+        /*background-color: #D60C0C;*/
+        background-color: #00ae6d;
+        padding: 4px 30px;
+    }
+    .second_slide{
+        margin:180px 100px;
+        color:#fff;
+    }
+
+    #ask {
+        margin-right: 112px;
+    }
+    #cap{
+        margin-top:175px;
+        font-size:30px;
+        font-weight:100;
+        color: #fff;
+    }
+    #now{
+        margin-top:230px;
+        font-size:30px;
+        color: #fff;
+    }
+    li.anim-slide:nth-of-type(2)>div{
+        width: 100%;
+        height: 100%;
+    }
+    li.anim-slide:nth-of-type(3)>h1{
+        margin: 0;
+        font-size:60px;
+        color: #fff;
+    }
+    #man_image{
+        right: 0;
+        top: -53px;
+        width: auto;
+        height: 138%;
+    }
+    #rework_image, #exp_image {
+        right: 0;
+        top: 0px;
+        width: auto;
+        height: 100%;
+    }
+    #quality_image{
+        left:0;
+        top:0;
+        width:auto;
+        height:120%;
+    }
+    h2#para{
+        top: 40%;
+        left: 30%;
+        text-align: center;
+        font-size: 34px;
+        color: #fff;
+        width:400px;
+        font-weight:100;
+    }
+    h2#para span{
+        display:block;}
+    h1#a1{
+        top:30%;
+        left:25%;
+    }
+    h1#r1{
+        top:30%;
+        left: 30%;
+    }
+    h1#c1{
+        top:30%;
+        left: 35%;
+    }
+    h1#h1{
+        top:30%;
+        left: 34%;
+    }
+    h1#i1{
+        top:30%;
+        left: 43%;
+    }
+    h1#t1{
+        top:30%;
+        left:48.5%;
+    }
+    h1#e1{
+        top:30%;
+        left: 53%;
+    }
+    h1#c2{
+        top:30%;
+        left: 58%;
+    }
+    h1#t2{
+        top:30%;
+        left: 63.5%;
+    }
+    h1#u1{
+        top:30%;
+        left: 50%;
+    }
+    h1#r2{
+        top:30%;
+        left:70%;
+    }
+    h1#e2{
+        top:30%;
+        left: 56%;
+    }
+    h1#mark{
+        top:30%;
+        left: 59%;
+    }
+    h1#rework span{
+        display:block;
+        width:600px;
+    }
+    h1#rework{
+        top: 46%;
+        left: 5%;
+        text-align: center;
+        font-size: 34px;
+        font-weight:100;
+        width:750px;
+        color: #fff;
+        padding: 40px;
+        border-radius: 100px;
+    }
+    h1#goal{
+        top: 26%;
+        right: 14%;
+        text-align: center;
+        font-size: 65px;
+        color: #fff;
+        width: 600px;
+    }
+    h2#goal_para{
+        top: 55%;
+        right: 14%;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        text-align:center;
+        width:600px;
+        font-weight:100;
+    }
+    h2#goal_para span{
+        display:block;
+        text-align:center;
+        width:600px;
+    }
 }
 @media(max-width:668px) {
+    .anim-slider{
+        height:753px;
+    }
     li.anim-slide:nth-of-type(1) > h1{
         margin: 100px 0 0;
         font-size: 35px;
@@ -1793,6 +1958,7 @@ svg{
     }
     #ask {
         margin-top: 60px;
+        margin-right: 60px;
         font-size: 18px;
     }
     #exp {
@@ -1802,11 +1968,11 @@ svg{
     h1#r1{top:30%;left: 26%;}
     h1#c1{top:30%;left: 31%;}
     h1#h1{top:30%;left: 36%;}
-    h1#i1{top:30%;left: 42%;}
+    h1#i1{top:30%;left: 39%;}
     h1#t1{top:30%;left:44.5%;}
     h1#e1{top:30%;left: 49%;}
-    h1#c2{top:30%;left: 53%;}
-    h1#t2{top:30%;left: 58%;}
+    h1#c2{top:30%;left: 54%;}
+    h1#t2{top:30%;left: 59%;}
     h1#u1{top:30%;left: 63%;}
     h1#r2{top:30%;left:68%;}
     h1#e2{top:30%;left: 73%;}

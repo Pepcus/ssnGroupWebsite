@@ -60,24 +60,15 @@
       "jobDescription": [
         "Implement real time systems for Algo Trading platform, OMS (order management system), Order routing, Trade execution, changing Stop Loss for active orders. ",
         "Implement API's to download market data feeds in index value protocol.",
-        "Contributes to the development, delivery and maintenance of technology based solutions."
+        "Contributes to the development, delivery and maintenance of technology based solutions.",
+        "Implement API's to download market data feeds in index value protocol."
       ],
-      "keyActivitiesTitle": "Key Activities",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
-        "Design and implementation of innovative enterprise JAVA and J2EE applications",
-        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
-        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+        "Bachelor’s degree in Computer Science/Management, Engineering(any),Technology, Information Systems or related and 5 years of exp. to design, development & support of software components that enhance or extend the reach of our client software development initiatives"
       ],
-      "KeySkillsTitle" : "Key Skills",
+      "KeySkillsTitle" : "",
       "keySkills" : [
-        "Proficiency in Java Programming",
-        "Skilled in Object Oriented Programming",
-        "Extensive exposure to Spring, Hibernate and open source frameworks",
-        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
-        "Excellent problem solving, debugging and troubleshooting skills.",
-        "Understanding of Best Practices and Design Patterns",
-        "Exposure to Build and Deployment processes"
       ]
     },
     {
@@ -90,27 +81,17 @@
       "modalContentExperienceText" :  "2-5 years",
       "jobDescriptionTitle" : "Job Description : ",
       "jobDescription": [
-        "to design, deploy, implement & support software components.",
+        "To design, deploy, implement & support software components.",
         "Configure, troubleshoot & resolve WebLogic, Apache issues. ",
         "Support web centric products, deploy & maintain apps as well as release specific patches, using latest tools and technologies including administration of cloud computing platforms such as AWS, Oracle, MSSQL server as backend.",
         "Coordinate with operation teams for software upgrades."
       ],
-      "keyActivitiesTitle": "Key Activities:",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
-        "Design and implementation of innovative enterprise JAVA and J2EE applications",
-        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
-        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+        "Bachelor’s degree in Computer Science, Engineering (any),Technology or related and 5 yrs of exp. to design, deploy, implement & support software components"
       ],
-      "KeySkillsTitle" : "Key Skills:",
+      "KeySkillsTitle" : "",
       "keySkills" : [
-        "Proficiency in Java Programming",
-        "Skilled in Object Oriented Programming",
-        "Extensive exposure to Spring, Hibernate and open source frameworks",
-        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
-        "Excellent problem solving, debugging and troubleshooting skills.",
-        "Understanding of Best Practices and Design Patterns",
-        "Exposure to Build and Deployment processes"
       ]
     },
     {
@@ -121,7 +102,7 @@
       "modalLocationText": "Herndon, VA",
       "modalContentExperience": "Experience : ",
       "modalContentExperienceText": " 3-7 years",
-      "jobDescriptionTitle" : "Responsiblities: ",
+      "jobDescriptionTitle" : "Job Description : ",
       "jobDescription": [
         "To assist in developing system requirements and producing design specifications for new technology applications or changes to existing applications.",
         "Analyze the client needs and provide time estimation with a good project plan.",
@@ -129,18 +110,9 @@
         "Analyze impact of proposed solution across the organization and develop use cases that explain/ demonstrate business requirements/specifications to develop the team.",
         "Structures and leads the user acceptance test effort to ensure that products created match business specifications."
       ],
-      "keyActivitiesTitle": "Key Activities:",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-        "Strong proficiency in JavaScript and HTML, including manipulation of the JavaScript Document Object Model.",
-        "Thorough understanding of React.js and its core principles",
-        "Experience with popular React.js workflows (such as Redux and Sagas)",
-        "Familiarity with newer specifications of EcmaScript",
-        "Familiarity with RESTful APIs",
-        "Knowledge of modern authorization mechanisms, such as JSON Web Token",
-        "Familiarity with modern front-end build pipelines and tools",
-        "Experience with common front-end development tools such as Babel, webpack, npm, Grunt etc.",
-        "Ability to understand business requirements and translate them into technical requirements",
-        "A knack for benchmarking and optimization"
+        "Master’s degree in Business Administration, Engineering(any), Computer Science, Technology or related and 1 year of experience"
       ],
       "KeySkillsTitle" : "",
       "keySkills" : [
@@ -162,20 +134,12 @@
         "Coordinate with operation teams for software upgrades",
         "Experience with tools like Docker, Chef, Puppet, Ansible, Packer, CloudFormation, Terraform is preferred."
         ],
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-
+        "Bachelor’s degree in computer science, computer information systems, information technology, relevant engineering (computer engineering, software engineering, electronic engineering, or related), or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects and 5 years of related experience."
       ],
-      "KeySkillsTitle" : "Key Skills:",
+      "KeySkillsTitle" : "",
       "keySkills" : [
-        "2+ years of DevOps experience with AWS services (e.g. RDS, Cloudfront, S3, EC2, Lambda, DynamoDB, Cloudwatch)",
-        "Strong understanding of Docker and container orchestrator such as ECS and Kubernetes",
-        "Must have experience with CI/CD Tools (Jenkins, Codebuild, ECS, Ansible, CloudFormation, Terraform, Git, etc.)",
-        "Experience with Linux, Apache, Nginx and building Linux systems",
-        "Experience with Python, Bash/Shell Scripting",
-        "Solid understanding of Git and GitHub",
-        "Excellent communication skills and detail oriented",
-        "Comfortable with a fast-moving organization using Continuous Integration and the Continuous Deployment/Delivery deployment model",
-        "Ability to work with minimal supervision, manage priorities, and stay organized and focused"
       ]
     },
     {
@@ -194,9 +158,9 @@
         "Develop UI with AJAX, DHTML and JavaScript for more interactive web pages.",
         "Working knowledge in Messaging (JMS, MQ, WebSphere Message Broker/Integration Bus)"
       ],
-      "keyActivitiesTitle": "",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-
+        "Master’s degree in Computer Science, Engineering (any),Technology or related and 1 yr of experience."
       ],
       "KeySkillsTitle" : "",
       "keySkills" : [
@@ -223,8 +187,9 @@
         "Develop testing programs that address areas such as database impacts, software scenarios, regression testing, negative testing, error or bug retests, or usability",
         "Test system modifications to prepare for implementation. Involved in SAO applications testing, SOAP user interface testing using Selenium and Ruby."
       ],
-      "keyActivitiesTitle": "",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
+        "MS in Engineering, computer science or related/equivalent + 2 years experience (or BS + 5 yrs experience)"
       ],
       "KeySkillsTitle" : "",
       "keySkills" : [
@@ -238,7 +203,7 @@
       "modalLocationText": "Herndon, VA",
       "modalContentExperience": "Experience : ",
       "modalContentExperienceText": "3-7 years",
-      "jobDescriptionTitle" : "Responsibilities : ",
+      "jobDescriptionTitle" : "Job Description : ",
       "jobDescription": [
         "Architect solutions for integrating dissimilar systems.",
         "Design and document technical solutions for business requirements",
@@ -251,21 +216,9 @@
         "Analyze user requirements, procedures, and problems to automate systems",
         "Understand the existing process and conduct impact analysis of the code."
       ],
-      "keyActivitiesTitle": "Key Activities:",
+      "keyActivitiesTitle": "Minimum Job Requirements :",
       "keyActivities" : [
-        "Strong knowledge of PHP web frameworks",
-        "Understanding the fully synchronous behavior of PHP",
-        "Understanding of MVC design patterns",
-        "Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3",
-        "Knowledge of object oriented PHP programming",
-        "Understanding accessibility and security compliance",
-        "Strong knowledge of the common PHP or web server exploits and their solutions",
-        "Understanding fundamental design principles behind a scalable application",
-        "User authentication and authorization between multiple systems, servers, and environments",
-        "Integration of multiple data sources and databases into one system",
-        "Familiarity with limitations of PHP as a platform and its workarounds",
-        "Creating database schemas that represent and support business processes",
-        "Familiarity with SQL/NoSQL databases and their declarative query languages"
+        "MS – Engineering or related/equiv. + 2 yrs experience (or BS + 5 yrs experience)"
       ],
       "KeySkillsTitle" : "",
       "keySkills" : [
@@ -498,27 +451,27 @@
       "linkFooterClass" : "link-footer-services"
     },
     {
-      "footerSecondaryTitle" : "Custom Web Development",
+      "footerSecondaryTitle" : "Business and IT systems integration",
       "linkFooterClass" : ""
     },
     {
-      "footerSecondaryTitle" : "Mobile Development",
+      "footerSecondaryTitle" : "Data Management Solutions",
       "linkFooterClass" : ""
     },
     {
-      "footerSecondaryTitle" : "Software Testing & Automation",
+      "footerSecondaryTitle" : "Business Application Development",
       "linkFooterClass" : ""
     },
     {
-      "footerSecondaryTitle" : "Startups",
+      "footerSecondaryTitle" : "Financial systems & services",
       "linkFooterClass" : ""
     },
     {
-      "footerSecondaryTitle" : "Outsourcing Partnership",
+      "footerSecondaryTitle" : "Enterprise transformation strategies",
       "linkFooterClass" : ""
     },
     {
-      "footerSecondaryTitle" : "Support & Maintenance",
+      "footerSecondaryTitle" : "Enterprise Data Warehousing",
       "linkFooterClass" : ""
     }
   ],
