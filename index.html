@@ -48,37 +48,75 @@
     </nav>
 </section>
 
-    <ul class="anim-slider">
-        <!-- Slide No1 -->
-        <li class="anim-slide parallax"><img id="man_image" src="images/demo2/ssnhome.jpg" alt="" />
-            <div class="mainBack"></div>
-            <h1 id="looks">
-                <span>SSN GROUP</span>
-            </h1>
-            <h1 id="amazing">
-                <span>CUSTOMER ORIENTED IT CONSULTING SERVICES..</span>
-            </h1>
-        </li>
+<ul class="anim-slider">
+    <!-- Slide No1 -->
+    <li class="anim-slide parallax"><img id="man_image" src="images/demo2/man.png" alt="" />
+        <div class="mainBack"></div>
+        <h1 id="looks">
+            <span>Custom Development</span>
+        </h1>
+        <h1 id="amazing">
+            <span>Your primary choice for J2EE based custom development</span>
+        </h1>
+    </li>
 
-        <!-- Slide No2 -->
-        <li class="anim-slide parallax"><img id="exp_image" src="images/demo2/ssnabout2.jpg" alt="" />
-            <div class="mainBack"></div>
-            <div class="second_slide">
-                <h1 id="exp">SSN GROUP</h1>
-                <h2 id="ask">Committed to providing exceptional IT solutions and consultations..</h2>
-                <h2 id="cap">Our team offers its EXPERTISE with utmost professionalism and ethics!!</h2>
-                <h3 id="now"></h3>
-            </div>
-        </li>
+    <!-- Slide No2 -->
+    <li class="anim-slide parallax"><img id="exp_image" src="images/demo2/experience.jpg" alt="" />
+        <div class="mainBack"></div>
+        <div class="second_slide">
+            <h1 id="exp">Our Experience !!</h1>
+            <h2 id="ask">Don't Ask</h2>
+            <h2 id="cap">Experience Our Capabilities</h2>
+            <h3 id="now"></h3>
+        </div>
+    </li>
 
-        <!-- Arrows -->
-        <nav class="anim-arrows">
-            <span class="anim-arrows-prev"> <i class="fa1 fa fa-angle-left fa-3x"></i></span>
-            <span class="anim-arrows-next"> <i class="fa1 fa fa-angle-right fa-3x"></i></span>
-        </nav>
-        <!-- Dynamically created dots -->
+    <!-- Slide No3 -->
+    <li class="anim-slide parallax">
+        <div class="mainBack"></div>
+        <h1 id="a1">A</h1>
+        <h1 id="r1">R</h1>
+        <h1 id="c1">C</h1>
+        <h1 id="h1">H</h1>
+        <h1 id="i1">I</h1>
+        <h1 id="t1">T</h1>
+        <h1 id="e1">E</h1>
+        <h1 id="c2">C</h1>
+        <h1 id="t2">T</h1>
+        <h1 id="u1">U</h1>
+        <h1 id="r2">R</h1>
+        <h1 id="e2">E</h1>
+        <h1 id="mark">!</h1>
+        <h2 id="para">
+            We build solid &nbsp;<span>&nbsp; Enterprise Architecture.</span>
+        </h2>
+    </li>
 
-    </ul>
+    <!-- Slide No4 -->
+    <li class="anim-slide parallax"><img id="rework_image" src="images/demo2/rework.png" alt="" />
+        <div class="mainBack"></div>
+        <h1 id="big_no">A Big No ...</h1>
+        <h1 id="rework">Our highly skilled J2EE experts eliminate the needs of rework and help you in generating big savings on the overall cost of development.</h1>
+    </li>
+
+    <!-- Slide No5 -->
+    <li class="anim-slide parallax"><img id="quality_image" src="images/demo2/quality_image.png" alt="" />
+        <div class="mainBack"></div>
+        <h1 id="goal">The Ultimate Goal</h1>
+        <h2 id="goal_para">
+            Our process based development leads <span> to best quality
+					deliverables.</span>
+        </h2>
+    </li>
+
+    <!-- Arrows -->
+    <nav class="anim-arrows">
+        <span class="anim-arrows-prev"> <i class="fa1 fa fa-angle-left fa-3x"></i></span>
+        <span class="anim-arrows-next"> <i class="fa1 fa fa-angle-right fa-3x"></i></span>
+    </nav>
+    <!-- Dynamically created dots -->
+
+</ul>
 <section>
     <div class="scroll-top-section">
         <a href="#" class="scrollup"><i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i></a>
@@ -311,6 +349,71 @@
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript" src="js/viewportchecker.js"></script>
+<!--<script type="text/javascript">-->
+<!--    $(document).ready(function () {-->
+<!--        var winHeight = $(window).height();-->
+<!--        $('.anim-slider').css('height', winHeight);-->
+<!--        $(".anim-slider").animateSlider({-->
+<!--            autoplay: true,-->
+<!--            interval: 8500,-->
+<!--          loop:true,-->
+<!--            animations: {-->
+<!--                0: //Slide No1-->
+<!--                        {-->
+<!--                            li: {-->
+<!--                                show: "fadeIn",-->
+<!--                                hide: "fadeOutLeftBig",-->
+<!--                                delayShow: "delay0.5s"-->
+<!--                            },-->
+<!--                            "#man_image": {-->
+<!--                                show: "slideInRight",-->
+<!--                                delayShow: "delay1s"-->
+<!--                            },-->
+<!--                            "#looks": {-->
+<!--                                show: "rotateInUpLeft",-->
+<!--                                delayShow: "delay2s"-->
+<!--                            },-->
+<!--                            "#amazing": {-->
+<!--                                show: "rollIn",-->
+<!--                                delayShow: "delay3s"-->
+<!--                            }-->
+<!--                        },-->
+<!--                1: //Slide No2-->
+<!--                        {-->
+<!--                            li: {-->
+<!--                                show: "fadeInLeft",-->
+<!--                                hide: "fadeOutLeftBig",-->
+<!--                                delayShow: "delay0-5s"-->
+<!--                            },-->
+<!--                            "#exp_image": {-->
+<!--                                show: "fadeInRight",-->
+<!--                                delayShow: "delay1s"-->
+<!--                            },-->
+<!--                            "#exp": {-->
+<!--                                show: "rotateInUpLeft",-->
+<!--                                delayShow: "delay0.5s"-->
+<!--                            },-->
+<!--                            "#ask": {-->
+<!--                                show: "rollIn",-->
+<!--                                delayShow: "delay1s"-->
+<!--                            },-->
+<!--                            "#cap": {-->
+<!--                                show: "slideInLeft",-->
+<!--                                delayShow: "delay2s"-->
+<!--                            },-->
+<!--                            "#now": {-->
+<!--                                show: "bounceInRight",-->
+<!--                                delayShow: "delay3s"-->
+<!--                            }-->
+<!--                        },-->
+
+
+<!--            }-->
+<!--        });-->
+<!--    });-->
+
+<!--</script>-->
+
 <script type="text/javascript">
     $(document).ready(function () {
         var winHeight = $(window).height();
@@ -318,58 +421,158 @@
         $(".anim-slider").animateSlider({
             autoplay: true,
             interval: 8500,
-          loop:true,
+            loop:true,
             animations: {
                 0: //Slide No1
-                        {
-                            li: {
-                                show: "fadeIn",
-                                hide: "fadeOutLeftBig",
-                                delayShow: "delay0.5s"
-                            },
-                            "#man_image": {
-                                show: "slideInRight",
-                                delayShow: "delay1s"
-                            },
-                            "#looks": {
-                                show: "rotateInUpLeft",
-                                delayShow: "delay2s"
-                            },
-                            "#amazing": {
-                                show: "rollIn",
-                                delayShow: "delay3s"
-                            }
-                        },
+                  {
+                      li: {
+                          show: "fadeIn",
+                          hide: "fadeOutLeftBig",
+                          delayShow: "delay0.5s"
+                      },
+                      "#man_image": {
+                          show: "slideInRight",
+                          delayShow: "delay1s"
+                      },
+                      "#looks": {
+                          show: "rotateInUpLeft",
+                          delayShow: "delay2s"
+                      },
+                      "#amazing": {
+                          show: "rollIn",
+                          delayShow: "delay3s"
+                      }
+                  },
                 1: //Slide No2
-                        {
-                            li: {
-                                show: "fadeInLeft",
-                                hide: "fadeOutLeftBig",
-                                delayShow: "delay0-5s"
-                            },
-                            "#exp_image": {
-                                show: "fadeInRight",
-                                delayShow: "delay1s"
-                            },
-                            "#exp": {
-                                show: "rotateInUpLeft",
-                                delayShow: "delay0.5s"
-                            },
-                            "#ask": {
-                                show: "rollIn",
-                                delayShow: "delay1s"
-                            },
-                            "#cap": {
-                                show: "slideInLeft",
-                                delayShow: "delay2s"
-                            },
-                            "#now": {
-                                show: "bounceInRight",
-                                delayShow: "delay3s"
-                            }
-                        },
-
-
+                  {
+                      li: {
+                          show: "fadeInLeft",
+                          hide: "fadeOutLeftBig",
+                          delayShow: "delay0-5s"
+                      },
+                      "#exp_image": {
+                          show: "fadeInRight",
+                          delayShow: "delay1s"
+                      },
+                      "#exp": {
+                          show: "rotateInUpLeft",
+                          delayShow: "delay0.5s"
+                      },
+                      "#ask": {
+                          show: "rollIn",
+                          delayShow: "delay1s"
+                      },
+                      "#cap": {
+                          show: "slideInLeft",
+                          delayShow: "delay2s"
+                      },
+                      "#now": {
+                          show: "bounceInRight",
+                          delayShow: "delay3s"
+                      }
+                  },
+                2: {
+                    li: {
+                        show: "fadeInUp",
+                        hide: "fadeOutDownBig",
+                        delayShow: "delay0-7s"
+                    },
+                    "#a1": {
+                        show: "slideInLeft",
+                        delayShow: "delay0-5s"
+                    },
+                    "#r1": {
+                        show: "bounceInRight",
+                        delayShow: "delay0-5s"
+                    },
+                    "#c1": {
+                        show: "fadeInRight",
+                        delayShow: "delay1s"
+                    },
+                    "#h1": {
+                        show: "rollIn",
+                        delayShow: "delay1s"
+                    },
+                    "#i1": {
+                        show: "rollIn",
+                        delayShow: "delay2s"
+                    },
+                    "#t1": {
+                        show: "rotateIn",
+                        delayShow: "delay2s"
+                    },
+                    "#e1": {
+                        show: "slideInLeft",
+                        delayShow: "delay2s"
+                    },
+                    "#c2": {
+                        show: "bounceInRight",
+                        delayShow: "delay2-5s"
+                    },
+                    "#t2": {
+                        show: "fadeInRight",
+                        delayShow: "delay2-5s"
+                    },
+                    "#u1": {
+                        show: "rollIn",
+                        delayShow: "delay2-5s"
+                    },
+                    "#r2": {
+                        show: "rollIn",
+                        delayShow: "delay2-5s"
+                    },
+                    "#e2": {
+                        show: "rotateIn",
+                        delayShow: "delay2s"
+                    },
+                    "#mark": {
+                        show: "rotateIn",
+                        delayShow: "delay2-5s"
+                    },
+                    "#para": {
+                        show: "slideInLeft",
+                        delayShow: "delay2-5s"
+                    }
+                },
+                3: //Slide No4
+                  {
+                      li: {
+                          show: "fadeInLeft",
+                          hide: "fadeOutLeftBig",
+                          delayShow: "delay0-5s"
+                      },
+                      "#big_no": {
+                          show: "slideInRight",
+                          delayShow: "delay1s"
+                      },
+                      "#rework_image": {
+                          show: "slideInRight",
+                          delayShow: "delay2s"
+                      },
+                      "#rework": {
+                          show: "rotateInUpLeft",
+                          delayShow: "delay2-5s"
+                      }
+                  },
+                4: {
+                    li: {
+                        show: "fadeInUp",
+                        hide: "fadeOutDownBig",
+                        delayShow: "delay0-5s"
+                    },
+                    "#quality_image": {
+                        show: "bounceInDown",
+                        delayShow: "delay1s"
+                    },
+                    "#goal": {
+                        show: "bounceInUp",
+                        delayShow: "delay2-5s"
+                    },
+                    "#goal_para": {
+                        show: "rollIn",
+                        delayShow: "delay4-5s"
+                    }
+                }
             }
         });
     });
