@@ -203,7 +203,7 @@
         var renderOpeningHeader = function(openingTitle) {
           $.each(openingTitle, function(key, value) {
             var htmlRender = "<div class = \"services-section-head\">" +
-              "<h3 class = \"font-size-40 primary-color mar-bot-35 text-center font-bold\">" +
+              "<h3 class = \"font-size-40 line-height-13 font-bold text-center mar-bot-35\">" +
               value.openingSectionTitle +
               "</h3>" +
               "</div>";
@@ -331,7 +331,7 @@
         };
         var renderTechExpertiseTitle = function(techExpert) {
           $.each(techExpert, function(key, value) {
-            var htmlRender1 = "<h3 class = \"font-size-40 primary-color mar-bot-35 text-center font-bold\">"
+            var htmlRender1 = "<h3 class = \"font-size-40 line-height-13 font-bold text-center mar-bot-35\">"
                + value.techExpertiseHeader +
               "</h3>";
             $(htmlRender1).appendTo("#services-title");
