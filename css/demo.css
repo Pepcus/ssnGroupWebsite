@@ -56,8 +56,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-
 .poppins-font-family{
     font-family: 'Poppins', sans-serif;
 }
@@ -73,7 +71,6 @@ table {
 .noto-font-family{
     font-family: 'Noto Sans', sans-serif;
 }
-
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -431,6 +428,9 @@ img#github-logo{
     /*color: #c54041;*/
     /*color: #00ae6d;*/
     color: #014a95;
+}
+.sky-light{
+    background-color: #f5f8f9 !important;
 }
 .secondary-color {
     color: #656565;
@@ -1715,11 +1715,11 @@ svg{
         width:100%;
     }
     .boxx {
-        height: 580px;
+        height: 677px;
         margin-bottom: 50px;
     }
     .value-box{
-        height:400px;
+        height:677px;
     }
     .anim-slider{
         height:753px;
