@@ -302,13 +302,73 @@
       "alt": ""
     },
     {
-      "iconSliderClass": "",
-      "img": "images/careers/react-icon-neww.png",
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/powerbuilder.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/visualbasic.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/chash.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/sharepointlogo.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/tibco.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/struts-icon-3.png",
       "alt": ""
     },
     {
       "iconSliderClass": "backbone-icon",
       "img": "images/careers/spring-icon-6.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsf-icon-5.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/hibernate.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/oraclelogo.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/microsoftsqllogo.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsp-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/backbone-icon-2.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/react-icon-neww.png",
       "alt": ""
     },
     {
@@ -333,27 +393,7 @@
     },
     {
       "iconSliderClass": "backbone-icon",
-      "img": "images/careers/struts-icon-3.png",
-      "alt": ""
-    },
-    {
-      "iconSliderClass": "",
-      "img": "images/careers/jsf-icon-5.png",
-      "alt": ""
-    },
-    {
-      "iconSliderClass": "backbone-icon",
       "img": "images/careers/primefaces-icon-5.png",
-      "alt": ""
-    },
-    {
-      "iconSliderClass": "",
-      "img": "images/careers/jsp-icon.png",
-      "alt": ""
-    },
-    {
-      "iconSliderClass": "backbone-icon",
-      "img": "images/careers/backbone-icon-2.png",
       "alt": ""
     }
   ],
@@ -439,6 +479,9 @@
       "footerPrimaryTitle": "About"
     },
     {
+      "footerPrimaryTitle": "Careers"
+    },
+    {
       "footerPrimaryTitle": "Team"
     },
     {
@@ -479,14 +522,23 @@
     {
       "logoSrc" : "images/logo/ssn1.png",
       "logoHref" : "index.html",
-      "logoWidth" : "150"
+      "logoWidth" : "45"
     }
   ],
-  "pepcusFooterPara" : [
-    {
-      "para" : "We help customers to focus on their core business areas and let their IT needs be OUR RESPONSIBILITY."
-    }
-  ],
+  "pepcusFooterPara" : {
+
+    "certificationPara" : [
+      "An SBA 8(a) Certified Company.",
+      "A Small, Woman and/or Minority-Owned (SWaM) Certified."
+    ],
+    "contact" :
+    [
+      "Tel: 571-364-7032",
+      "Fax: 703-650-9593",
+      "Cell: 703-338-4567"
+    ]
+  },
+
   "footerSocialIcons" : [
     {
       "footerSocialClass" : "fa fa-linkedin SocialMediaIcon social-media social-media-linkedin",

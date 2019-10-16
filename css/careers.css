@@ -765,6 +765,8 @@ svg {
 }
 #slider .client-section img {
 	max-height: 94px;
+	margin: 0 auto;
+	/*left: 20px;*/
 }
 /*@media (min-width:1433px) and (max-width:1485px){
 .react-engineer-card{
