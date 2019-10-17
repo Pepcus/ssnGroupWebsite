@@ -32,10 +32,10 @@ $(document).ready(function(e) {
 });
      
 var page = document.getElementById('page');
-var sections = page.getElementsByTagName('section');
-var transition = 'top 0.8s ease-in-out 0s';
-page.style.transition = transition;
-page.onclick = slideDown;
+// var sections = page.getElementsByTagName('section');
+// var transition = 'top 0.8s ease-in-out 0s';
+// page.style.transition = transition;
+// page.onclick = slideDown;
 
 function slideDown(e) {
     if (e.target.className != 'next') {
@@ -54,4 +54,3 @@ function slideDown(e) {
         page.onclick = slideDown
     }, 800)
 }
-// document.addEventListener('touchstart', functionref, false) // on user tap, "touchstart" fires first
