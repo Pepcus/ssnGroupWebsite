@@ -315,6 +315,7 @@ h2#goal_para span{
     text-align:center;
     width:600px;
 }
+
 html
 
 @-webkit-keyframes bounce {
@@ -383,7 +384,6 @@ img#github-logo{
     top: 100px !important;
 }
 /* General css */
-
 .image-wrapper {
     min-width: 30px;
 }
@@ -992,6 +992,9 @@ a:hover {
 .footer-desc-link a:hover{
     color:#00ae6d;
 }
+.offshore-partner-block{
+    background-color: #f5f8f9 !important;
+}
 .mapbutton{
     display: inline-block;
     padding: 20px 40px;
@@ -1232,6 +1235,45 @@ h1.loader-pepcus:before {
 .header-menu input{
     display: none;
 }
+.dropdown-menu {
+    background-color: #edeeef;
+    position: absolute;
+    top: 158%;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*border: 1px solid #ccc;*/
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 15px 23px;
+}
+.dropdown-menu>li>a:hover {
+    color: #00ae6d;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    color:#00ae6d;
+    background-color:#efeeed;
+}
+.dropdown-menu{
+    margin-top:100px;
+}
+.open>.dropdown-menu {
+    display: block;
+}
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
     color: #014a95;
@@ -1244,7 +1286,6 @@ h1.loader-pepcus:before {
     color: #c12e2a;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-    /*color: #c12e2a;*/
     color: #00ae6d;
 }
 .primary-btn-pepcus {
@@ -1625,6 +1666,19 @@ nav.anim-arrows>span.anim-arrows-prev, nav.anim-arrows>span.anim-arrows-next {
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
+}
+.explore-more-btn .btn-explore {
+    background: -webkit-linear-gradient(#00ae6d,#4b9c4d);
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.explore-more-btn .btn-explore:hover {
+    transition: 0.3s linear;
+    transform: scale(1.06);
+    text-decoration: none;
 }
 .SocialMediaIcon {
     padding: 6px;
@@ -2441,7 +2495,7 @@ svg{
         margin-top: 8px;
     }
     .navbar-toggle {
-        margin-top: 22px;
+        /*margin-top: 22px;*/
         right: 10px;
     }
     .loading-image img {
@@ -2494,11 +2548,6 @@ svg{
     }
     .footer-desc-copy {
         font-size: 10px;
-    }
-
-    .footer-logo {
-        /*width: 40px;*/
-        /*margin: 0 auto 10px;*/
     }
     .footer-logo-small {
         width: 32px;
@@ -2705,7 +2754,8 @@ svg{
             margin-left: -5px;
         }
         .navbar-toggle{
-            right:10px;
+            right:-130px;
+            float: none;
         }
         .abc{
             margin:5px auto;
