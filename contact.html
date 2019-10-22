@@ -38,23 +38,63 @@
         </div>
     </div>
 </section>
-<section class="contactForm mar-top-50 mar-bot-50 xxs-margin-top-50 montserrat-font-family">
+
+<section class="contactForm mar-top-30 xxs-margin-top-50 montserrat-font-family">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-xxs-12 pull-right">
                 <div class="padding-50-25 xs-padding-0-80 sm-padding-0-20 text-center">
-                    <P class="secondary-color weight-300-height-16 font-size-32">Get in touch to embark upon a journey of excellence and success with SSN Group’s exceptional IT Services..</P>
+                    <P class="secondary-color weight-300-height-16 font-size-28">Get in touch to embark upon a journey of excellence and success with SSN Group’s exceptional IT Services..</P>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="contactForm mar-bot-100 xxs-margin-top-50 montserrat-font-family">
+<section id="about" class="montserrat-font-family section section-div section-color-light padding-75-200">
+    <div class="section-content contact-page">
+        <div class="row text-center">
+            <div class="col-sm-12 no-padding">
+                <div class="col-sm-6">
+                    <h5 class="mar-bot-15">USA</h5>
+                    <p>
+                        580 Herndon Pwy,Suite 700 Herndon VA 20170<br>
+                        Tel: 571-364-7032<br>
+                        Cell: 703-338-4567<br>
+                    </p>
+                    <div>
+                        <button class="mapbutton mar-top-15" onclick="displayMap('usa');">Go to Map</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h5 class="mar-bot-15">India</h5>
+                    <p>
+                        201, Balaji Corporate House Janjeerwala Square,<br> New Palasia, Indore, MP , India<br>
+                        Tel: +91 731-421-8554<br>
+                    </p>
+                    <div>
+                        <button class="mapbutton mar-top-15" onclick="displayMap('india');">Go to Map</button>
+                    </div>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+        </div>
+        <div>&nbsp;</div>
+    </div>
+</section>
+<section>
+    <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;">
+        <div id="myMap" style="height:440px;width:100%;"></div>
+        <br/>
+    </div>
+</section>
+
+<section class="contactForm mar-bot-50 xxs-margin-top-50 montserrat-font-family">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <form class="form-horizontal sky-light padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
+                <form class="form-horizontal mar-top-15 sky-light padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
                     <!-- Text input-->
                     <div class="row">
                         <div class="col-sm-6 col-xs-12">
@@ -174,18 +214,6 @@
     </div>
 </section>
 
-<section>
-    <div style='overflow:hidden;'>
-        <div id='gmap_canvas' style='height:440px;width:100%;'></div>
-        <style>
-            #gmap_canvas img {
-                max-width: none!important;
-                background: none!important
-            }
-        </style>
-    </div>
-</section>
-
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script type="text/javascript">
@@ -200,7 +228,6 @@
     $("#txtCaptchaDiv > span").html(code);
     $("input#txtCaptcha").val(RemovedSpaceCode);
 </script>
-
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCIMp6rwcAOunaTDtLT2oLQMzJJgheFobw"></script>
 <script type='text/javascript'>
     var validForm = false;
@@ -278,35 +305,72 @@
         }
     }
 </script>
+<script>
 
-<script type="text/javascript">
-    function init_map() {
-        var myOptions = {
-            zoom: 13,
-            center: new google.maps.LatLng(38.9554403,-77.3837789,18.92),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-        marker = new google.maps.Marker({
-            map: map,
-            position: new google.maps.LatLng(38.9554403,-77.3837789,18.92)
-        });
-        infowindow = new google.maps.InfoWindow({
-            content: '<strong>SSN Group</strong><br>580 Herndon Pwy, Suite 700\n' +
-              'Herndon VA 20170<br>'
-        });
-        google.maps.event.addListener(marker, 'click', function() {
-            infowindow.open(map, marker);
-        });
-        infowindow.open(map, marker);
+
+  var map;
+  var marker;
+  var geocoder = new google.maps.Geocoder();
+  var infowindow = new google.maps.InfoWindow();
+
+  function displayMap(id) {
+    document.getElementById('myMap').style.display = "block";
+    mapinitialize(id);
+  }
+
+  function mapinitialize(id) {
+    if(id === 'usa') {
+      var myLatlng = new google.maps.LatLng(38.9554403,-77.3837789);
     }
-    google.maps.event.addDomListener(window, 'load', init_map);
+    else {
+      var myLatlng = new google.maps.LatLng(22.7272694, 75.88389440000003);
+    }
+    var mapOptions = {
+      zoom: 17,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById("myMap"), mapOptions);
+    marker = new google.maps.Marker({
+      map: map,
+      position: myLatlng,
+      draggable: true
+    });
+
+    geocoder.geocode({
+      'latLng': myLatlng
+    }, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        if (results[0]) {
+          $('#address').val(results[0].formatted_address);
+          infowindow.setContent(results[0].formatted_address);
+          infowindow.open(map, marker);
+        }
+      }
+    });
+    google.maps.event.addListener(marker, 'dragend', function() {
+      geocoder.geocode({
+        'latLng': marker.getPosition()
+      }, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          if (results[0]) {
+            $('#address').val(results[0].formatted_address);
+            infowindow.setContent(results[0].formatted_address);
+            infowindow.open(map, marker);
+          }
+        }
+      });
+    });
+  }
+
 </script>
+
 <section>
     <div class="scroll-top-section">
         <a href="#" class="scrollup"><i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i></a>
     </div>
 </section>
+
 <section>
     <div id="footerContent"></div>
 </section>
@@ -355,6 +419,8 @@
     $("#footerContent").load("Footer.html")
 
   })
+
 </script>
+
 </body>
 </html>
