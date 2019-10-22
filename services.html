@@ -160,28 +160,82 @@
                     </div>
                 </section>
             </div>
-    </div>
+         </div>
     </div>
 </section>
 
 <section>
-    <div class="container">
-        <div class="padding-50-200 xs-padding-90-100 montserrat-font-family xxs-padding-20-10">
-            <p class="font-size-40 line-height-13 font-bold text-center">Our Consultants Certifications</p>
-            <br>
-            <p >
-            <ul class="services-section-bullet mar-top-10">
-                <li class="secondary-color weight-300-height-16 font-size-20">Information Technology Infrastructure Library (ITIL) </li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Project Management Professional (PMP)</li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Microsoft Certified Systems Engineer (MCSE)</li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Microsoft Certified Professional (MCP) </li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Cisco Certified Network Associate (CCNA)</li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Sun Certified Java Programmer (SCJP) </li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Sun Certified Java Developer (SCJD) </li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Oracle Certified Associate (OCA) </li>
-                <li class="secondary-color weight-300-height-16 font-size-20">Oracle Certified Professional (OCP) </li>
-            </ul>
-            </p>
+    <div class = "services-section montserrat-font-family overflow-hidden sky-light xxs-padding-30">
+        <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 clients">
+            <div class = "services-section-head">
+                <div id="services-title">
+                    <h3 class="font-size-40 line-height-13 font-bold text-center mar-bot-35">Our Consultant Certifications</h3>
+                </div>
+                <section class="client-container text-center">
+                    <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 tech-expertise-slider">
+<!--                        <div class = "owl-carousel slider" id = "slider9"></div>-->
+                        <div class="owl-carousel owl-theme" id = "slider9">
+
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c1.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c2.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c3.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c4.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c5.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c6.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c7.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="client-section" java-icon="">
+                                    <a>
+                                        <img src="images/certification/c8.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 </section>
@@ -216,8 +270,76 @@
 </script>
 
 <script>
+
+
+  $('#slider9').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:5
+      }
+    }
+  })
+
+
   renderTechExpertiseSlider = function (techSlider) {
     $('#slider').owlCarousel({
+      jsonPath: 'careers.json',
+      jsonSuccess: renderTechExpertiseSlider,
+      loop: true,
+      margin: 15,
+      item: 5,
+      dots: true,
+      navText: false,
+      slideSpeed: 200,
+      scrollPerPage: true,
+      slideBy: 5,
+      autoPlay: false,
+      autoPlayTimeout: 1800,
+      autoWidth: false,
+      slideTransition: 'linear',
+      autoPlayHoverPause: true,
+      responsiveClass: true,
+      itemsCustom : [
+        [0, 2],
+        [768, 4],
+        [1200, 5]
+      ],
+      responsive: {
+        0: {
+          item: 2,
+          nav: false,
+          dots: false,
+          pagination: false
+        },
+        600: {
+          item: 2,
+          mouseDrag: true,
+          touchDrag: true,
+          nav: false,
+          dots: false,
+          pagination: false,
+
+        },
+        1000: {
+          item: 5,
+          mouseDrag: true,
+          touchDrag: true,
+          nav: false,
+          dots: false
+        }
+      }
+    });
+
+    $('#slider8').owlCarousel({
       jsonPath: 'careers.json',
       jsonSuccess: renderTechExpertiseSlider,
       loop: true,
@@ -380,5 +502,256 @@
     }
   ]);
 </script>
+
+<!--<script>
+  renderGallerySlider = function(gallerySlider) {
+    $('.slider2').owlCarousel({
+      jsonPath : 'careers.json',
+      jsonSuccess : renderGallerySlider,
+      loop:true,
+      nav: true,
+      items:3,
+      navigation: true,
+      navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+      margin:15,
+      navClass:["nav-prev", "nav-next"],
+      navigationClass:["nav-prev", "nav-next"],
+      autoplay:true,
+      slideSpeed : 600,
+      scrollPerPage : true,
+      dots: false,
+      autoPlay:true,
+      pagination: false,
+      slideTransition: 'linear',
+      autoWidth: false,
+      autoPlayHoverPause:true,
+      responsiveClass:true,
+      itemsCustom : [
+        [0,1],
+        [768, 3]
+      ],
+      responsive:{
+        0:{
+
+          items:1,
+          nav:false,
+          pagination: false,
+          page: false
+        },
+        600:{
+          items:2,
+          mouseDrag: true,
+          touchDrag: true,
+          nav:false,
+          pagination: false
+        },
+        1000:{
+          items:3,
+          mouseDrag: true,
+          touchDrag: true,
+          nav:true
+        }
+      }
+    });
+    $().fancybox({
+      prevEffect : 'false',
+      nextEffect : 'false',
+      closeBtn  : true,
+      arrows    : true,
+      nextClick : true,
+      'autoScale': true,
+      'transitionIn': 'elastic',
+      'transitionOut': 'elastic',
+      'speedIn': 500,
+      'speedOut': 300,
+      'autoDimensions': true,
+      'centerOnScroll': true,
+      prevSpeed : 250,
+      helpers: {
+        title : {
+          type : 'outside'
+        },
+        overlay : {
+          speedIn : 200,
+          opacity : 0.95
+        },
+        thumbs : {
+          width: 75,
+          height: 50
+        },
+        title : {
+          type : 'inside'
+        }
+      }
+    });
+    var content = "";
+    for(var i in gallerySlider["gallerySliderWrapper"]) {
+      var img = gallerySlider["gallerySliderWrapper"][i].img;
+      var alt = gallerySlider["gallerySliderWrapper"][i].alt;
+      content += "<div class='item'>" +
+        "<a data-fancybox='gallery' href='"+img+"'>" +
+        "<img src=\"" +img+ "\" alt=\"" +alt+ "\" class='img-responsive'>" +
+        "</a></div>";
+    }
+    $("#slider2").html(content);
+  };
+</script>-->
+<script type = "text/javascript" src = "js/jquery.fancybox.min.js"></script>
+<script>
+    // This script is for slider three
+    console.log("rendering slide three");
+    var sliderTwoData = [
+    {
+      "img":"images/certification/c1.jpg",
+      "alt": "slider 1 jpg"
+    },
+    {
+      "img":"images/certification/c2.jpg",
+      "alt": "slider 2 jpg"
+    },
+    {
+      "img":"images/certification/c3.png",
+      "alt": "slider 3 jpg"
+    },
+    {
+      "img":"images/certification/c4.png",
+      "alt": "slider 4 jpg"
+    },
+    {
+      "img":"images/certification/c5.jpg",
+      "alt": "slider 5 jpg"
+    },
+    {
+      "img":"images/certification/c6.png",
+      "alt": "slider 6 jpg"
+    },
+    {
+      "img":"images/certification/c7.png",
+      "alt": "slider 7 jpg"
+    },
+    {
+      "img":"images/certification/c8.jpg",
+      "alt": "slider 8 jpg"
+    }
+  ];
+    var renderGallerySlider2 = function(gallerySlider2) {
+      $('.slider3').owlCarousel({
+        loop:true,
+        nav: true,
+        items:3,
+        navigation: true,
+        navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+        margin:15,
+        navClass:["nav-prev", "nav-next"],
+        navigationClass:["nav-prev", "nav-next"],
+        autoplay:true,
+        slideSpeed : 600,
+        scrollPerPage : true,
+        dots: false,
+        autoPlay:true,
+        pagination: false,
+        slideTransition: 'linear',
+        autoWidth: false,
+        autoPlayHoverPause:true,
+        responsiveClass:true,
+        itemsCustom : [
+          [0,1],
+          [768, 3]
+        ],
+        responsive:{
+          0:{
+
+            items:1,
+            nav:false,
+            pagination: false,
+            page: false
+          },
+          600:{
+            items:2,
+            mouseDrag: true,
+            touchDrag: true,
+            nav:false,
+            pagination: false
+          },
+          1000:{
+            items:3,
+            mouseDrag: true,
+            touchDrag: true,
+            nav:true
+          }
+        }
+      });
+      $().fancybox({
+        prevEffect : 'false',
+        nextEffect : 'false',
+        closeBtn  : true,
+        arrows    : true,
+        nextClick : true,
+        'autoScale': true,
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic',
+        'speedIn': 500,
+        'speedOut': 300,
+        'autoDimensions': true,
+        'centerOnScroll': true,
+        prevSpeed : 250,
+        helpers: {
+          title : {
+            type : 'outside'
+          },
+          overlay : {
+            speedIn : 200,
+            opacity : 0.95
+          },
+          thumbs : {
+            width: 75,
+            height: 50
+          },
+          title : {
+            type : 'inside'
+          },
+        }
+      });
+      var content = "";
+      for(var i in gallerySlider2) {
+        console.log("GALLERY SLIDER",i);
+
+        var img = gallerySlider2[i].img;
+        console.log("IMAGE", img);
+        var alt = gallerySlider2[i].alt;
+        console.log("alternative", alt);
+        content += "<div class='item'>" +
+          "<a data-fancybox='gallery' href='"+img+"'>" +
+          "<img src=\"" +img+ "\" alt=\"" +alt+ "\" class='img-responsive'>" +
+          "</a></div>";
+      }
+      $("#slider3").html(content);
+    };
+    $( document ).ready(function() {
+      console.log( "ready!" );
+      renderGallerySlider2();
+    });
+</script>
 </body>
 </html>
+<!--<section>-->
+<!--    <div class="container">-->
+<!--        <div class="padding-50-200 xs-padding-90-100 montserrat-font-family xxs-padding-20-10">-->
+<!--            <p class="font-size-40 line-height-13 font-bold text-center">Our Consultants Certifications</p>-->
+<!--            <br>-->
+<!--            <p >-->
+<!--            <ul class="services-section-bullet mar-top-10">-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Information Technology Infrastructure Library (ITIL) </li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Project Management Professional (PMP)</li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Microsoft Certified Systems Engineer (MCSE)</li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Microsoft Certified Professional (MCP) </li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Cisco Certified Network Associate (CCNA)</li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Sun Certified Java Programmer (SCJP) </li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Sun Certified Java Developer (SCJD) </li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Oracle Certified Associate (OCA) </li>-->
+<!--                <li class="secondary-color weight-300-height-16 font-size-20">Oracle Certified Professional (OCP) </li>-->
+<!--            </ul>-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
