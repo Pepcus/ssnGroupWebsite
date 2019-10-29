@@ -1276,20 +1276,11 @@ a.social-icon:hover {
 a.social-icon:hover {
     color: #c12e2a;;
 }
-
-/*.mdAnimate {
-    opacity: 0;
-}
-.mdAnimate.animated {
-    opacity: 1;
-}*/
-
 @media only screen and (max-width: 1440px) {
     .about-company-block {
         background-size: 400px;
     }
 }
-
 @media only screen and (max-width: 1366px) {
 li.anim-slide:nth-of-type(1) > h1{margin:220px 50px;}
 li.anim-slide:nth-of-type(3) > h1{font-size:50px;}
@@ -1316,9 +1307,6 @@ h2#goal_para{top:50%;right:15%;}
         background-size: 50%;
         background-position: 0 100px;
     }
-   /* a.link-footer{
-        font-size: 12px;
-    }*/
     .header-menu input ~ nav > div.main-header-area{
         width: 400px;
     }
@@ -1328,28 +1316,6 @@ h2#goal_para{top:50%;right:15%;}
     .level2-header-link{
         width: 300px;
     }
-    /* generalized CSS */
-/*    .font-size-60 {
-        font-size: 40px;
-    }
-    .font-size-50 {
-        font-size: 36px;
-    }
-    .font-size-40 {
-        font-size: 32px;
-    }
-    .font-size-32 {
-        font-size: 28px;
-    }
-    .font-size-20 {
-        font-size: 17px;
-    }
-    .font-size-16 {
-        font-size: 14px;
-    }
-    .font-size-14 {
-        font-size: 12px;
-    }*/
 
     .xs-padding-0-80 {
         padding: 0 80px;
