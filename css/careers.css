@@ -153,6 +153,9 @@ a{
 	text-decoration: none;
 }
 .font-size-16 {
+	font-size:16px;
+}
+.font-size-20 {
 	font-size:20px;
 }
 /*.card {*/
@@ -767,6 +770,9 @@ svg {
 	max-height: 94px;
 	margin: 0 auto;
 	/*left: 20px;*/
+}
+.footer-primary-link{
+	margin-top: 0px;
 }
 /*@media (min-width:1433px) and (max-width:1485px){
 .react-engineer-card{
