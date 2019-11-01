@@ -12,7 +12,7 @@ touch-action: manipulation;
     padding: 25px 0;
 }
 .team-container{
-    width: 100%;
+    width: 45%;
     height: auto;
     border: 5px solid #fff;
     margin-top: 50px;
@@ -21,7 +21,8 @@ touch-action: manipulation;
     cursor: pointer;
 }
 .team-container-top {
-    margin-top: 50px;
+    margin: 0 auto;
+    /*margin-top: 50px;*/
 }
 .overlay {
     position: absolute;
@@ -72,10 +73,10 @@ touch-action: manipulation;
     text-shadow: 2px 2px 5px #cac7c7;
 }
 .image-container .background-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background-size: cover;
-    border-radius: 8%;
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all .2s;
@@ -109,7 +110,7 @@ touch-action: manipulation;
   position: relative;
   margin-bottom: 7px;
   width: 100%;
-  height: 278px;
+  height: 240px;
   cursor: pointer;
   -ms-touch-action: manipulation; /* IE10  */
   touch-action: manipulation; 
@@ -163,18 +164,18 @@ touch-action: manipulation;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.service-content-row1 {
-    height: 470px;
-}
-.service-content-row2 {
-    height: 476px;
-}
-.service-content-row3 {
-    height: 455px;
-}
-.service-content-row4 {
-    height: 224px;
-}
+/*.service-content-row1 {*/
+/*    height: 470px;*/
+/*}*/
+/*.service-content-row2 {*/
+/*    height: 476px;*/
+/*}*/
+/*.service-content-row3 {*/
+/*    height: 455px;*/
+/*}*/
+/*.service-content-row4 {*/
+/*    height: 224px;*/
+/*}*/
 .banner .content .main-heading-inner {
     margin-bottom: 25px;
 }
@@ -204,7 +205,115 @@ touch-action: manipulation;
     cursor: pointer;
 }
 .white-shadow {
-    box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, 0.05);
+    /*box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, 0.05);*/
+    box-shadow: 0 0 50px rgba(0,0,0,.2);
+}
+.box-container{
+    display: flex;
+    /*grid-template-columns: 40% 60%;*/
+    width: 70%;
+    /*width:910px;*/
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0,0,0,.2);
+    padding:50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .box-container{
+        width: 90%;
+        padding:15px;
+        box-shadow: 0 0 1px rgba(0,0,0,.2);
+    }
+    .team-container{
+        height: 360px;
+    }
+}
+
+.leftbox{
+    width: 40%;
+    /*width:250px;*/
+    text-align: center;
+    /*background-color: white;*/
+}
+
+.rightbox{
+    width:60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .leftbox{
+        width: 100%;
+    }
+    .rightbox{
+        width:100%;
+        margin-top: 30px;
+    }
+}
+
+blockquote{
+    font-size:24px;
+    /*margin: 40px;*/
+    /*margin-top: 60px;*/
+    color:#404040;
+}
+blockquote p{
+    color:grey;
+    /*width:400px;*/
+    line-height: 1.5;
+}
+
+
+.imageceo {
+    width: 250px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .imageceo {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.imageceo img{
+    border-radius:100%;
+    width: 100%;
+}
+.ceo-name{
+    color:#00ae6d;
+    font-size:20px;
+    margin-top: 10px;
+}
+.designation{
+    margin: 0 auto;
+    text-align: center;
+    width: 240px;
+    margin-top: 10px;
+    font-size:15px;
+    line-height: 1.6;
+}
+.Quote-top{
+    fill:#00ae6d;
+}
+.Quote-top{
+    margin-bottom: 22px;
+}
+.Quote-bottom {
+    margin-top: 30px;
+}
+.Quote-byline {
+    padding: 16px 22px;
+    display: block;
+    font-family: AkzidenzGroteskStd,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #767676;
+    position: relative;
 }
 .service-section-content{
     margin-top: -95px;
@@ -260,6 +369,10 @@ touch-action: manipulation;
    /*  .parallax {
         background-size: contain;
     }*/
+    .image-container .background-image {
+        width: 100%;
+        height: 57%;
+    }
     .general-team {
         background-image: url("../images/parallex/teamssnupper.png");
         position:relative;
@@ -296,6 +409,9 @@ touch-action: manipulation;
     .footer-height {
         height: 385px;
     }
+    .team-container {
+        height: 410px;
+    }
 }
 @media(max-width:668px) {
     .parallax {
@@ -326,10 +442,16 @@ touch-action: manipulation;
         background-size: cover;
     }
     .font-size-32{
-        font-size:16px;
+        /*font-size:16px;*/
+        font-size:22px;
     }
 }
 @media(max-width:768px) {
+    .image-container .background-image {
+        width: 92%;
+        height: 100%;
+        margin: 0 auto;
+    }
     .parallax {
         background-size: contain;
     }
@@ -351,6 +473,9 @@ touch-action: manipulation;
     }
     #secondary_team div:nth-child(n+0) .service-content-block1 {
         height: 503px;
+    }
+    .team-container {
+        width: 100%;
     }
 }
 @media(max-width: 700px) {
