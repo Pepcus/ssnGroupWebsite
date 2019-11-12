@@ -1331,7 +1331,7 @@ svg {
 	}
 
 	.footer-primary-link li {
-		padding: 0 ;
+		padding: 7px ;
 		display: inline-block;
 	}
 
@@ -1340,7 +1340,6 @@ svg {
 		font-size: 12px;
 	}
 	.abc{
-		background: #1dac4b;
 		padding: 4px;
 		font-size: 17px;
 		width: 30px;
@@ -1348,7 +1347,6 @@ svg {
 		border-radius:50px;
 		height:30px;
 		color:white;
-
 	}
 	svg{
 		padding-top:0px;
