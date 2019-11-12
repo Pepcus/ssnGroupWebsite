@@ -502,7 +502,6 @@
                                     </a>
                                 </div>
                             </div>
-
                             <div class="item">
                                 <div class="client-section" java-icon="">
                                     <a>
@@ -562,7 +561,7 @@
   $('#slider9').owlCarousel({
     loop:true,
     margin:10,
-    nav: true,
+    nav: false,
     navText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>"
@@ -570,10 +569,12 @@
     autoplay: false,
     responsive:{
       0: {
-        items:2
+        items:2,
+          nav: true
       },
       767:{
-        items:2
+        items:2,
+          nav: true
       },
       768:{
         items:5
@@ -585,19 +586,19 @@
     loop: true,
     margin: 10,
     dots:true,
-    nav: true,
+    nav: false,
     navText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>"
     ],
-    autoplay: true,
-    autoplayHoverPause: true,
     responsive: {
       0: {
-        items:2
+        items:2,
+        nav: true
       },
       767:{
-        items:2
+        items:2,
+        nav: true
       },
       768:{
         items:5
