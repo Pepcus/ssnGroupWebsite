@@ -50,7 +50,7 @@ body {
 }
 
 .form-control {
-    height: 50px;
+    height: 40px;
     font-size: 16px;
 }
 #myMap {
@@ -753,7 +753,7 @@ img#github-logo{
 .footer-address i {
     width:30px;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
 }
 .fa .fa-map-marker{
     width:30px;
@@ -792,7 +792,7 @@ img#github-logo{
 .footer-contacts i{
     width: 30px;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
 }
 .footer-contacts p{
     padding-left: 20px;
@@ -1030,7 +1030,7 @@ section-content {
 
 
 .contact-page h5 {
-    font-size: 22px;
+    font-size: 20px;
     color: #00ae6d;
     font-weight: bold;
 }
@@ -1046,7 +1046,7 @@ section-content {
 }
 
 .contact-page p {
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 1.8 !important;
 }
 
@@ -1439,7 +1439,7 @@ h1.loader-pepcus:before {
 }
 .navbar-nav>li>a {
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .change-height .navbar-nav>li>a {
     padding: 10px 15px;
@@ -1481,13 +1481,16 @@ h1.loader-pepcus:before {
 }
 .dropdown-menu>li>a {
     display: block;
-    padding: 15px 23px;
+    padding: 10px 15px;
+    color: #014a95;
 }
 .dropdown-menu>li>a:hover {
     color: #00ae6d;
 }
 
 .dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
     top: 153%;
     position: absolute;
     text-align: left;
@@ -1495,12 +1498,13 @@ h1.loader-pepcus:before {
     -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
     padding: 0px 0;
-    margin-top: 20px;
+    margin-top: 20px !important;
     margin-left: 0px;
     background: #fff;
     -webkit-transition: 0.2s 0s;
     -o-transition: 0.2s 0s;
     transition: 0.2s 0s;
+    display: block;
 }
 
 .dropdown-menu li:first-child {
@@ -1515,12 +1519,11 @@ h1.loader-pepcus:before {
     color:#00ae6d;
     background-color:transparent;
 }
-/*.dropdown-menu{*/
-/*    margin-top:100px;*/
-/*}*/
 .open>.dropdown-menu {
-    display: block;
-    margin-top:0!important;
+    margin-top: 0!important;
+    transition-delay: 0s;
+    visibility: visible;
+    opacity: 1;
 }
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
@@ -2232,18 +2235,8 @@ svg{
     .section-content p {
         font-size: 14px;
     }
-    /*.location1 {*/
-    /*    margin-top: 41px;*/
-    /*}*/
-    /*.location1 p{*/
-    /*    margin-top: 0px;*/
-    /*}*/
-    /*.location2 button{*/
-    /*    margin-top: 9px;*/
-    /*}*/
-
-
 }
+/*ipad*/
 
 
 /*ipad*/
@@ -2472,6 +2465,9 @@ svg{
         }
         .services-section-new-content {
             min-height: 350px;
+        }
+        .navbar-inverse .navbar-nav>li>a{
+            font-size: 14px;
         }
     }
     @media (max-width: 668px) {
@@ -3040,7 +3036,7 @@ svg{
             padding: 10px;
         }
         .link-footer-services{
-            font-size: 17px;
+            font-size: 14px;
             padding: 7px;
         }
         .footer-desc-copy{
@@ -3153,15 +3149,6 @@ svg{
         .location2 button{
             margin-top: 9px;
         }
-        /*.location1 {*/
-        /*    margin-top: 41px;*/
-        /*}*/
-        /*.location1 p{*/
-        /*    margin-top: 0px;*/
-        /*}*/
-        /*.location2 button{*/
-        /*    margin-top: 9px;*/
-        /*}*/
     }
     @media (max-width: 767px) {
         .general-banner .content .font-size-40 {
@@ -3510,6 +3497,7 @@ svg{
             display: none;
         }
         .services-section-new-content{
+            /*min-height: 280px;*/
             min-height: 180px;
         }
         .services-section-head .mar-bot-35 {
