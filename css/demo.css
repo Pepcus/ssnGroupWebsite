@@ -143,7 +143,7 @@ body{
 }
 .link-footer-services {
     color:floralwhite;
-    font-size:18px;
+    font-size:14px;
 }
 .link-footer-services p{
     width: calc(100% - 30px);
@@ -1439,7 +1439,7 @@ h1.loader-pepcus:before {
 }
 .navbar-nav>li>a {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .change-height .navbar-nav>li>a {
     padding: 10px 15px;
@@ -1512,7 +1512,7 @@ h1.loader-pepcus:before {
 }
 
 .dropdown-menu>li>a {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
