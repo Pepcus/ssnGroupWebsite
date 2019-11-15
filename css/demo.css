@@ -3179,6 +3179,9 @@ svg{
         .services-section-head .font-size-32 {
             font-size: 20px;
         }
+        .careers-section-head .font-size-32 {
+            font-size: 20px;
+        }
 
         .general-banner .content .padding-50-25 {
             padding: 10px 25px;
@@ -3363,7 +3366,7 @@ svg{
             font-size: 22px;
         }
         .font-size-40 {
-            font-size: 20px;
+            font-size: 25px;
         }
         .font-size-60 {
             font-size: 32px;
@@ -3511,6 +3514,9 @@ svg{
         .services-section-head .mar-bot-35 {
             margin-bottom: 15px;
         }
+        .careers-section-head .mar-bot-35 {
+            margin-bottom: 15px;
+        }
         #rework_image{
             width: 100%;
         }
@@ -3578,7 +3584,6 @@ svg{
     width: 100%;
     background-position: 70%;
 }
-
-/*#jobopening>div:last-child {*/
-/*    width: 100%;*/
-/*}*/
+.careers-section{
+    background-color: #f5f8f9 !important;;
+}

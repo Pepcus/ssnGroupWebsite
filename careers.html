@@ -49,12 +49,11 @@
 
         <!-- current opening section starts -->
             <section>
-                <div class="services-section montserrat-font-family sky-light xxs-padding-30">
+                <div class="careers-section montserrat-font-family">
                     <div class="container-fluid padding-0" id="current-opening-wrapper">
                         <div id="opening-title-wrapper"></div>
                         <div id="modal-content-wrapper"></div>
-                        <div class="mosaic jQueryMosaic" id="mosaic"></div>
-                        <div class="job-positions" id="jobopening"></div>
+                        <div id="jobopening"></div>
                     </div>
                 </div>
             </section>
@@ -136,7 +135,7 @@
           $.each(headerInfo, function(key, value) {
             var htmlRender = "<div class =\"col-lg-8 col-lg-offset-2 montserrat-font-family mar-50-auto pull-none\">" +
               "<h3 class = \"font-size-40 line-height-13 font-bold text-center\">" + value.title + "</h3>" +
-              "<p class = \"secondary-color weight-300-height-16 font-size-26  text-center mar-top-10\">" + value.description +
+              "<p class = \"secondary-color weight-300-height-16 font-size-26 text-center mar-top-10\">" + value.description +
               "</p>" +
               "</div>";
             $(htmlRender).appendTo("#section-title");
@@ -144,7 +143,7 @@
         };
         var renderOpeningHeader = function(openingTitle) {
           $.each(openingTitle, function(key, value) {
-            var htmlRender = "<div class = \"services-section-head\">" +
+            var htmlRender = "<div class = \"careers-section-head\">" +
               "<h3 class = \"font-size-40 line-height-13 font-bold text-center mar-bot-35 padding-top-50\">" +
               value.openingSectionTitle +
               "</h3>" +
@@ -289,75 +288,6 @@
             };
           });
         };
-        var renderTechExpertiseTitle = function(techExpert) {
-          $.each(techExpert, function(key, value) {
-            var htmlRender1 = "<h3 class = \"font-size-40 line-height-13 font-bold text-center mar-bot-35\">"
-               + value.techExpertiseHeader +
-              "</h3>";
-            $(htmlRender1).appendTo("#services-title");
-          });
-        };
-        var renderTechExpertiseSlider;
-        renderTechExpertiseSlider = function (techSlider) {
-          $('#slider').owlCarousel({
-            jsonPath: 'careers.json',
-            jsonSuccess: renderTechExpertiseSlider,
-            loop: true,
-            margin: 15,
-            item: 5,
-            dots: true,
-            navText: false,
-            slideSpeed: 200,
-            scrollPerPage: true,
-            slideBy: 5,
-            autoPlay: false,
-            autoPlayTimeout: 1800,
-            autoWidth: false,
-            slideTransition: 'linear',
-            autoPlayHoverPause: true,
-            responsiveClass: true,
-            itemsCustom : [
-              [0, 2],
-              [768, 4],
-              [1200, 5]
-            ],
-            responsive: {
-              0: {
-                item: 2,
-                nav: false,
-                dots: false,
-                pagination: false
-              },
-              600: {
-                item: 2,
-                mouseDrag: true,
-                touchDrag: true,
-                nav: false,
-                dots: false,
-                pagination: false,
-
-              },
-              1000: {
-                item: 5,
-                mouseDrag: true,
-                touchDrag: true,
-                nav: false,
-                dots: false
-              }
-            }
-          });
-          var content = "";
-          for (var i in techSlider["techExpertise"]) {
-            var img = techSlider["techExpertise"][i].img;
-            var alt = techSlider["techExpertise"][i].alt;
-            var iconSlider = techSlider["techExpertise"][i].iconSliderClass;
-            content += "<div class='item'>" +
-              "<div class='client-section'" + iconSlider + ">" +
-              "<a><img src=\"" + img + "\" alt=\"" + alt + "\" class='img-responsive'></a>" +
-              "</div></div>";
-          }
-          $("#slider").html(content);
-        };
 
         var renderJOpage = function (data) {
           renderBackgroundHeader(data.backgroundHeader);
@@ -371,9 +301,6 @@
             $("#error-wrapper-block").append(htmlRender);
         };
         var fetchConfigAndRender = function () {
-          /*$.getJSON('careers.json', function (data) {
-            renderJOpage(data);
-          });*/
           $.ajax({
             url: 'careers.json',
             dataType: 'json',
@@ -387,7 +314,6 @@
             }
           });
         };
-
         // start
         fetchConfigAndRender();
         </script>
