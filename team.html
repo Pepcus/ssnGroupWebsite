@@ -117,16 +117,14 @@
     <script type='application/javascript' src="js/fastclick.min.js"></script>
     <script type='application/javascript' src="js/carouseller.js"></script>
     <script type='application/javascript' src="js/lazy-image.min.js"></script>
-    <script type='application/javascript' src="js/custom.min.js"></script>
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script type='application/javascript' src="js/custom.js"></script>
     <script type="text/javascript">
-        // new WOW().init();
-        // <script type="text/javascript">
         var mainteam = [{
                 name: 'NAME',
                 imageURL: '',
                 role: 'Designation',
                 img1: 'images/team/dummy2.jpg',
-                img2: 'images/team/images/team/user-icon8.png',
                 // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....',
                 // specialities: ' Client Relationship | Delivery Management | Project Management | Solution Architect'
             }, {
@@ -134,20 +132,9 @@
           imageURL: '',
           role: 'Designation',
           img1: 'images/team/dummy2.jpg',
-          img2: 'images/team/images/team/user-icon8.png',
           // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.... ',
           specialities: ' Solution Architect | Research & Development'
         }
-          // } {
-            //     name: 'NAME',
-            //     imageURL: '',
-            //     role: 'Designation',
-            //     img1: 'images/team/dummy1.png',
-            //     img2: 'images/team/dummy2.jpg',
-            //     // description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....',
-            //     specialities: ' Program Management | Technical Leadership'
-            // }
-
         ];
 
         var renderMainTeam = function() {
@@ -157,7 +144,6 @@
                     '<div class = "team-container team-container-top">' +
                     '<div class="image-container text-center">' +
                     '<div data-bgset = "' + teamData.img1 + '" class = "background-image lazyload"></div>' +
-                    '<div data-bgset = "' + teamData.img2 + '" class = "background-image hover lazyload"></div></div>' +
                     '<div class = "service-section-content service-content-block1 service-content-row1">' +
                     '<div class="team-name text-center">' +
                     '<h3 class="team-name-head white-color font-size-16">' + teamData.name + '</h3></div>' +
@@ -404,14 +390,6 @@
               img2: 'images/team/RajaF.jpg'
 
         }
-            // ,{
-
-            //      name: 'You may be the next',
-            //      imageURL: '',
-            //      role: null,
-            //      img1:'images/team/user-icon8.png',
-            //      img2: null
-            // }
         ];
         var renderThirdTeam = function() {
             for (var k = 0; k < thirdTeam.length; k++) {
@@ -448,7 +426,7 @@
                     renderMainTeam();
                     renderSecondaryTeam();
                     renderThirdTeam();
-                    const data = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
+                    var data = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
                     var timesClicked = 0;
                     if (data) {
                         $("div.image-container").on('click', 'div', function(e) {
@@ -490,8 +468,7 @@
         window.addEventListener('load', function() {
             new FastClick(document.body);
         }, false);
-    </script>
-    <script>
+
       $(function () {
         $("#headerContent").load("Header.html", function() {
           $('.liTeam').addClass('active');

@@ -2,208 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/clients/ssnclient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clients/ssnclientss.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/team2ssn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/cwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/op.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/sta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/startup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/innerpages/strength.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loader/loadingspinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/fv1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/ssnfavicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/about1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/banner-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/contact1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/general1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/services1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/parallex/teamssnupper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sliders/slider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/dummy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/dummy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/persona-header1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/petref_headshotv2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/user-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutOld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.json" beforeDir="false" afterPath="$PROJECT_DIR$/careers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/cwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devops-engineer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridSlider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridSliderNew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/CollageTeam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/cwd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/op.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/sm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/sta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/startup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/innerpages/strength.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loader/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/Logos/Pepcus Logo 300by300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logo-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logonew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/about1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/back1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/back3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/banner-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/contact1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/general1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/services1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/teamTop1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/service-home/quick-analysis2edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service-home/quick-analysis2edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/service-home/quick-contact2edit2@.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service-home/quick-contact2edit2@.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/service-home/quick-contact3edit1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service-home/quick-contacthover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/service-home/quick-proposal4edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service-home/quick-proposal4edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/img1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/img2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/img3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s32.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/s9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/AMITF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/Ajay-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/Ajay-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/AmitP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/AshutoshF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/AshutoshP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/KuldeepF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/KuldeepP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/NitinF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/PalakF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/PalakP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/RajaF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/RajaP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/RaviF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/Razxc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/SharadF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/SharadP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/ShivajiP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/Sonam-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/Sonam-2edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/ankit-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/ankit-3@.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/arpit-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/arpitedit-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/ayush-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/ayush-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/bhagyashree-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/bhagyashree-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/dhruv-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/dhruv-2edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/kapilesh-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/kapilesh-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/maheshP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/mohitF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/mohitP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nikhilBH-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nikhilMAH-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nikhilMAH-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nikhilP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nnssnn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/nyy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/prateek-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/prateekedit-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/purvi-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/purvi1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sandeep-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sandeep-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sandeepKUM-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sandeepKUM-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/shiva-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/shivaP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/shivajiiF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/shubham-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/shubham-2edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/surabhi-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/surabhi1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sushil-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/sushil-2@.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/vinay-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/vinay-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/vishalF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/team/vishalP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-engineer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-lead.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/team/newTeam.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/team/newTeam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md.html" beforeDir="false" afterPath="$PROJECT_DIR$/md.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op.html" beforeDir="false" afterPath="$PROJECT_DIR$/op.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pepcus-life.html" beforeDir="false" afterPath="$PROJECT_DIR$/pepcus-life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-engineer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pr_car.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-engineer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-lead.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-engineer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sm.html" beforeDir="false" afterPath="$PROJECT_DIR$/sm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sta.html" beforeDir="false" afterPath="$PROJECT_DIR$/sta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup.html" beforeDir="false" afterPath="$PROJECT_DIR$/startup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strength.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thankyou-careers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/thankyou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/change.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos/change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-pepcus.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-pepcus.html" afterDir="false" />
     </list>
     <list id="ab83b6d5-75d2-43f2-b221-2e2508f7c77c" name="created on master" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -219,56 +18,17 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/clients/ssnclient.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/clients/ssnclientss.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/img1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/our-goal.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/our-goal1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/partnership1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/mobile.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/mblapp.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/services/main-technical-support.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/careers.json">
+        <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7976" />
+            <state relative-caret-position="-24">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -276,36 +36,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dev</find>
-      <find>devops-engineer</find>
-      <find>keyActivities</find>
-      <find>devops</find>
-      <find>apply:</find>
-      <find>keyA</find>
-      <find>keya</find>
-      <find>KeyA</find>
-      <find>main-heading-inner font-size-50 font-bold</find>
-      <find>java-le</find>
-      <find>qa-engineer</find>
-      <find>java-engineer</find>
-      <find>react-engineer</find>
-      <find>qa-lead</find>
-      <find>php</find>
-      <find>join us</find>
-      <find>joi</find>
-      <find>our go</find>
-      <find>our str</find>
-      <find>we emb</find>
-      <find>Enterprise transformation strategy with Enterprise Architecture</find>
-      <find>sta</find>
-      <find>footer-desc-copy</find>
-      <find>.privacy-policy</find>
-      <find>mobile</find>
-      <find>Pep</find>
-      <find>aja</find>
-      <find>pep</find>
       <find>&lt;a class=&quot;privacy-policy&quot;</find>
       <find>privacy.html</find>
+      <find>Our Tech Expertise</find>
+      <find>client-container</find>
+      <find>Our Respected Clients</find>
+      <find>grayscale</find>
+      <find>Our Consultant Certifications</find>
+      <find>ourclients</find>
+      <find>contact-page</find>
+      <find>.contact-page h5</find>
+      <find>form</find>
+      <find>.form</find>
+      <find>link-footer-services</find>
+      <find>footer-link</find>
+      <find>footer-contacts</find>
+      <find>abc</find>
+      <find>SocialMediaIcon</find>
+      <find>SocialMediaContainer</find>
+      <find>about</find>
+      <find>navbar-nav</find>
+      <find>.open&gt;.dropdown-menu</find>
+      <find>.navbar-inverse</find>
+      <find>.dropdown-menu&gt;li&gt;a</find>
+      <find>.footer-addres</find>
+      <find>renderJOpage</find>
+      <find>currentOpeningSection</find>
+      <find>mosaic</find>
+      <find>renderOpeningHeader</find>
+      <find>renderOpeningSection</find>
+      <find>#mission-detail</find>
     </findStrings>
     <replaceStrings>
       <replace>padding-0</replace>
@@ -317,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/php-engineer.css" />
         <option value="$PROJECT_DIR$/devops-engineer.html" />
         <option value="$PROJECT_DIR$/java-engineer.html" />
         <option value="$PROJECT_DIR$/php-engineer.html" />
@@ -333,7 +92,6 @@
         <option value="$PROJECT_DIR$/js/masonry.pkg.min.js" />
         <option value="$PROJECT_DIR$/js/pycs.layout.jquery.js" />
         <option value="$PROJECT_DIR$/gridSliderNew.html" />
-        <option value="$PROJECT_DIR$/gridSlider.html" />
         <option value="$PROJECT_DIR$/js/grid-mosaic.js" />
         <option value="$PROJECT_DIR$/js/jquery.mosaic.js" />
         <option value="$PROJECT_DIR$/js/careers.json" />
@@ -349,13 +107,9 @@
         <option value="$PROJECT_DIR$/pepcus-life.html" />
         <option value="$PROJECT_DIR$/css/demo-final.css" />
         <option value="$PROJECT_DIR$/css/careers.css" />
-        <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/thankyou.html" />
-        <option value="$PROJECT_DIR$/team.html" />
-        <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/startup.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/videos/change.html" />
         <option value="$PROJECT_DIR$/op.html" />
         <option value="$PROJECT_DIR$/careers.json" />
@@ -366,16 +120,22 @@
         <option value="$PROJECT_DIR$/js/team/newTeam.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sta.html" />
-        <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/css/team.css" />
+        <option value="$PROJECT_DIR$/Footer.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/gridSlider.html" />
+        <option value="$PROJECT_DIR$/css/demo.css" />
+        <option value="$PROJECT_DIR$/careers.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="6" />
-    <option name="y" value="42" />
-    <option name="width" value="1380" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -383,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,23 +153,19 @@
             <path>
               <item name="ssnGroupWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssnGroupWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssnGroupWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssnGroupWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/sliders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -474,16 +229,25 @@
       <workItem from="1567499514192" duration="4092000" />
       <workItem from="1569942736313" duration="516000" />
       <workItem from="1570082526267" duration="47835000" />
+      <workItem from="1573569486848" duration="12268000" />
+      <workItem from="1573642059711" duration="98000" />
+      <workItem from="1573645143401" duration="2140000" />
+      <workItem from="1573800837920" duration="1834000" />
+      <workItem from="1573821136298" duration="817000" />
+      <workItem from="1574090002900" duration="97000" />
+      <workItem from="1574148438603" duration="704000" />
+      <workItem from="1574151466329" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343833000" />
+    <option name="totallyTimeSpent" value="362639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16259088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16220239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,34 +269,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/careers.html</url>
+          <line>318</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/parallex/teamTop1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/banner-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/teamssnupper.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/services1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/services1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/life5-edit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/ind-con.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/general1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/parallex/general1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/parallex/contact1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -593,9 +342,7 @@
     <entry file="file://$PROJECT_DIR$/images/innerpages/privacy.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/footer/collageteamssn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/footer/collageteamssn.png" />
     <entry file="file://$PROJECT_DIR$/images/footer/team2ssn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -623,9 +370,7 @@
     <entry file="file://$PROJECT_DIR$/images/demo2/quality_image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/clients/clients.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/clients/clients.jpg" />
     <entry file="file://$PROJECT_DIR$/images/demo2/rework.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -656,9 +401,108 @@
     <entry file="file://$PROJECT_DIR$/images/services/main-technical-support.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="96" selection-start-line="228" selection-start-column="96" selection-end-line="228" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7973">
+          <caret line="541" selection-start-line="541" selection-end-line="542" selection-end-column="91" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#11;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="116" column="77" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gridSlider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="187" column="78" selection-start-line="187" selection-start-column="78" selection-end-line="187" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/careers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7976" />
+        <state relative-caret-position="102">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+          <folding>
+            <element signature="e#26#676#0" />
+            <element signature="e#700#757#0" />
+            <element signature="e#775#1331#0" />
+            <element signature="e#1359#1424#0" />
+            <element signature="e#1460#11626#0" />
+            <element signature="n#!!block;n#pepcusFooterPara#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="3147" column="21" selection-start-line="3147" selection-start-column="21" selection-end-line="3147" selection-end-column="21" />
+          <folding>
+            <element signature="e#60080#60243#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
