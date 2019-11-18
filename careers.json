@@ -227,67 +227,67 @@
   ],
   "currentOpeningSection": [
     {
+      "cardImages" : "images/careers/senior-software-developer.jpg",
       "onclickOpenModal" : "Senior Software Developer",
-      "jobDivWidthClass": " stripe2",
       "jobTitle": "Senior Software Developer",
       "jobShortDescription": "Implement real time systems for Algo Trading platform, OMS…",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "java-lead-card"
+      "jobDivBackgroundClass" : "senior-software-developer-card"
     },
     {
+      "cardImages" : "images/careers/system-engineer.jpg",
       "onclickOpenModal" : "Sr. Systems Engineer",
-      "jobDivWidthClass": " stripe1",
       "jobTitle": "Sr. Systems Engineer",
       "jobShortDescription": "To design, deploy, implement & support software components.…",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "java-engineer-card"
+      "jobDivBackgroundClass" : "senior-systems-engineer-card"
     },
     {
+      "cardImages" : "images/careers/business-analyst.jpg",
       "onclickOpenModal" : "Business Analyst",
-      "jobDivWidthClass": " stripe3",
       "jobTitle": "Business Analyst",
       "jobShortDescription": "To assist in developing system requirements and producing design specifications…",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "react-engineer-card"
+      "jobDivBackgroundClass" : "business-analyst-card"
     },
     {
+      "cardImages" : "images/careers/devops-system-admin.jpg",
       "onclickOpenModal" : "DevOps Systems Admin",
-      "jobDivWidthClass": " stripe2",
       "jobTitle": "DevOps Systems Admin",
       "jobShortDescription": "Design, deploy, implement & support software components...",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "devops-engineer-card"
+      "jobDivBackgroundClass" : "devOps-systems-admin-card"
     },
     {
+      "cardImages" : "images/careers/software-engineer.jpg",
       "onclickOpenModal" : "Software Engineer/Java",
-      "jobDivWidthClass": " stripe1",
       "jobTitle": "Software Engineer/Java",
       "jobShortDescription": "To perform software installations and upgrades to JAVA, J2EE application servers running on …",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "qa-lead-card"
+      "jobDivBackgroundClass" : "software-engineer/java-card"
     },
     {
+      "cardImages" : "images/careers/software-quality-engineer.jpg",
       "onclickOpenModal" : "Software Quality Engineer",
-      "jobDivWidthClass": " stripe3",
       "jobTitle": "Software Quality Engineer",
       "jobShortDescription": "Script test cases for automation testing …",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "qa-engineer-card"
+      "jobDivBackgroundClass" : "software-quality-engineer-card"
     },
     {
+      "cardImages" : "images/careers/programmer-analyst.jpg",
       "onclickOpenModal" : "Programmer Analyst",
-      "jobDivWidthClass": " stripe2",
       "jobTitle": "Programmer Analyst",
       "jobShortDescription": "Architect solutions for integrating dissimilar systems. Design and document…",
       "jobLocation": "Job Location : Herndon, VA",
       "jobBtn":"See more",
-      "jobDivBackgroundClass" : "php-engineer-card"
+      "jobDivBackgroundClass" : "programmer-analyst-card"
     }
   ],
   "techExpertiseTitle" : [

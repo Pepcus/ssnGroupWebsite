@@ -48,6 +48,10 @@ body {
     margin-right:0;
     margin-left:0;
 }
+.current-opening img{
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 
 .form-control {
     height: 40px;
@@ -626,7 +630,7 @@ img#github-logo{
     padding-top: 50px;
 }
 .padding-0 {
-    padding: 0
+    padding: 0 !important;
 }
 .padding-50 {
     padding: 50px;
@@ -679,6 +683,9 @@ img#github-logo{
 .padding-0-200{
     padding: 0 200px;
 }
+.padding-bot-30{
+    padding-bottom: 30px;
+}
 .mar-bot-8{
     margin-bottom: 8px;
 }
@@ -721,6 +728,7 @@ img#github-logo{
 .img-responsive{
     max-width: 100%;
 }
+
 .pepcus-built-section .section-head-content {
     margin-bottom: 0;
 }
@@ -3171,6 +3179,9 @@ svg{
         .services-section-head .font-size-32 {
             font-size: 20px;
         }
+        .careers-section-head .font-size-32 {
+            font-size: 20px;
+        }
 
         .general-banner .content .padding-50-25 {
             padding: 10px 25px;
@@ -3355,7 +3366,7 @@ svg{
             font-size: 22px;
         }
         .font-size-40 {
-            font-size: 20px;
+            font-size: 25px;
         }
         .font-size-60 {
             font-size: 32px;
@@ -3503,6 +3514,9 @@ svg{
         .services-section-head .mar-bot-35 {
             margin-bottom: 15px;
         }
+        .careers-section-head .mar-bot-35 {
+            margin-bottom: 15px;
+        }
         #rework_image{
             width: 100%;
         }
@@ -3560,4 +3574,16 @@ svg{
             padding: 10px 0;
         }
     }
-
+.job-opening-image{
+    min-height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.job-opening-image:last-child{
+    height: 400px;
+    width: 100%;
+    background-position: 70%;
+}
+.careers-section{
+    background-color: #f5f8f9 !important;;
+}

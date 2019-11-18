@@ -446,7 +446,6 @@
                 $(window).load(function() {
                     $('.loading').hide();
                     renderMainTeam();
-
                     renderSecondaryTeam();
                     renderThirdTeam();
                     const data = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
@@ -464,7 +463,6 @@
                     var clicked = false;
                     var parent = this;
                     var destroy = selfDestroy || true;
-                    
                     parent.click(function() {
                         clicked = true;
                     });
@@ -481,14 +479,10 @@
                     $("div.image-container").clickOff(function() {
                         $(".hover").css('opacity', '0');
                     });
-
                  }
                      else {
-
                     }
-
                     $('.image-container').click(function() {
-
                     });
                 });
             });
