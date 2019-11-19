@@ -610,8 +610,12 @@ img#github-logo{
     margin-bottom: 25px;
 }
 .banner .content {
-    margin-bottom: -50px;
-    padding-top: 50px;
+      margin-bottom: -50px;
+      padding-top: 50px;
+  }
+.banner .content {
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 .flex-center {
     display: flex;
@@ -1432,7 +1436,7 @@ h1.loader-pepcus:before {
     color: #fff;
 }
 .scrollup:hover .arrow-up-icon, .arrow-up-icon:hover{
-    background: rgba(197,64,65,1);
+    background: rgba(31,130,93,1);
 }
 /* scroll top */
 
@@ -2490,6 +2494,7 @@ svg{
         #slider9 .client-section a img {
             max-width: 180px;
         }
+
     }
     /*---------------------- owl crousel css*/
     .owl-carousel .owl-wrapper:after {
@@ -2942,6 +2947,9 @@ svg{
     @media (max-width: 992px) {
         .navbar-collapse .nav > li {
             width: 100px;
+        }
+        #mission-image {
+            order: 2;
         }
     }
     @media (max-width: 768px) {
