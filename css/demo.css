@@ -805,10 +805,14 @@ img#github-logo{
     width: 30px;
     text-align: center;
     font-size: 20px;
+
 }
-.footer-contacts p{
+.footer-contacts a{
     padding-left: 20px;
     align-items: flex-start;
+}
+.footer-contacts a:hover{
+    color: floralwhite;
 }
 .fa .fa-mobile{
     font-size: 26px;
@@ -896,7 +900,6 @@ a.link-footer {
 }
 a.link-footer:hover{
     color: #00ae6d;
-    font-weight: bold;
 }
 a:focus,a:hover{
     text-decoration: none;

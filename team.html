@@ -124,17 +124,14 @@
                 name: 'NAME',
                 imageURL: '',
                 role: 'Designation',
-                img1: 'images/team/dummy2.jpg',
-                // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....',
-                // specialities: ' Client Relationship | Delivery Management | Project Management | Solution Architect'
-            }, {
-          name: 'NAME',
-          imageURL: '',
-          role: 'Designation',
-          img1: 'images/team/dummy2.jpg',
-          // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.... ',
-          specialities: ' Solution Architect | Research & Development'
-        }
+                img1: 'images/team/dummy2.jpg'
+                },
+                {
+                  name: 'NAME',
+                  imageURL: '',
+                  role: 'Designation',
+                  img1: 'images/team/dummy2.jpg'
+                }
         ];
 
         var renderMainTeam = function() {
@@ -144,24 +141,20 @@
                     '<div class = "team-container team-container-top">' +
                     '<div class="image-container text-center">' +
                     '<div data-bgset = "' + teamData.img1 + '" class = "background-image lazyload"></div>' +
+                    '<div class = "background-image hover lazyload"></div></div>' +
                     '<div class = "service-section-content service-content-block1 service-content-row1">' +
                     '<div class="team-name text-center">' +
                     '<h3 class="team-name-head white-color font-size-16">' + teamData.name + '</h3></div>' +
                     '<div class = "padding-50-25 text-center">' +
                     '<h3 class="services-section-head font-size-16 primary-color mar-bot-15 font-bold">' + teamData.role + '</h3>' +
-                    // '<p class="secondary-color font-weight-300 line-height-16 font-size-14 mar-bot-15 text-justify">' + teamData.description +
-                    // '</p>' +
                     '</div>' +
                     '</div>' +
                     '</div>' +
                     '</div>');
                 $("#main_team").append(teamHTML);
-
             }
         };
-
          var secondaryTeam = [{
-
                 name: 'Vinay Jain',
                 imageURL: '',
                 role: 'Administration Head',
@@ -179,7 +172,6 @@
                 description: ' Purvi is a seasoned professional with a demonstrated history of working in the computer software industry. She is a  versatile team player who is skilled in Public Speaking, Human Resource Management, Social Media Branding, and Creative Writing. She puts an amazing consistency, creativity and the passion in her work. She believes that" There is no magic formula for a great company culture. The key is just to treat your staff how you would like to be treated. ',
                 specialities: 'HR Management | Social Media Branding'
             }
-
         ];
         var renderSecondaryTeam = function() {
             for (var j = 0; j < secondaryTeam.length; j++) {
@@ -225,8 +217,6 @@
                 } else {
                     $("#secondary_team").append(teamHTML);
                 }
-                // $("#secondary_team").append(teamHTML);
-
             }
         };
         var thirdTeam = [{
