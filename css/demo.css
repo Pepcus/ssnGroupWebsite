@@ -2719,13 +2719,7 @@ svg{
             margin-top: 50px;
         }
 
-        #mission-image {
-            order: 2;
-        }
 
-        #mission-detail {
-            order: 1;
-        }
 
         #exp {
             font-size: 25px;
@@ -3076,6 +3070,14 @@ svg{
         }
         .location2 button{
             margin-top: 9px;
+        }
+
+        #mission-image {
+            order: 2;
+        }
+
+        #mission-detail {
+            order: 1;
         }
     }
     @media (max-width: 767px) {
