@@ -57,6 +57,12 @@ body {
     height: 40px;
     font-size: 16px;
 }
+.location1 a,.location2 a{
+    color:#564c4c;
+}
+.location1 a:hover,.location2 a:hover{
+    color:#564c4c;
+}
 #myMap {
     display: none;
     height:400px;
@@ -374,7 +380,9 @@ h2#goal_para span{
     background:#000000;
     opacity:0.7;
 }
-
+.event{
+    cursor:default;
+}
 
 html
 
@@ -1752,11 +1760,12 @@ h1.loader-pepcus:before {
     border: 1px solid #014a95;
 }
 .control-label span{
-    color:#00ae6d;
+    color:red;
 }
 .captcha-label span{
-    color:#00ae6d;
+    color:red;
 }
+
 #txtCaptchaDiv span{
     color:#333;
 }
@@ -3084,6 +3093,9 @@ svg{
         }
     }
     @media (max-width: 767px) {
+        .mar-top-100{
+            margin-top: 20px;
+        }
         .general-banner .content .font-size-40 {
             font-size: 16px;
         }
