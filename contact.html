@@ -58,9 +58,12 @@
                 <div class="col-sm-6">
                     <h5 class="mar-bot-15 line-height-13">SSN Group LLC.,<br> USA</h5>
                     <p class="location1">
-                        580 Herndon Pwy,Suite 700 Herndon VA 20170<br>
-                        Tel: <a href="tel:5713647032">571-364-7032</a><br>
-                        Cell: <a href="tel:7033384567">703-338-4567</a><br>
+                        580 Herndon Pkwy, Suite 700<br>
+                        Herndon, VA 20170<br>
+                        Tel: <a href="tel:5713646468">571-364-6468</a><br>
+                        Fax: <a href="tel:7036509593">703-650-9593</a><br>
+                        Contact: <a href="prem.kumar@ssngrp.com">prem.kumar@ssngrp.com</a><br>
+                        Career:  <a href="resumes@ssngrp.com">resumes@ssngrp.com</a><br>
                     </p>
                     <div>
                         <a class="mapbutton mar-top-15" onclick="displayMap('usa');">Go to Map</a>
@@ -376,11 +379,12 @@
     <div id="footerContent"></div>
 </section>
 
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
     (function(){
-        emailjs.init("user_QjC9ZSKm2Rl96TpEZy1Ov");
+        emailjs.init("user_wRdcV11x9tWS7v9EFwl57");
 
         var myform = $("form#contact_form");
         $("#submit").click(function() {
@@ -394,8 +398,10 @@
                 return obj;
             }, {});
           // Change to your service ID, or keep using the default service
-            var service_id = "default_service";
-            var template_id = "template_WPb3VH3Z";
+          //   var service_id = "default_service";
+          //   var template_id = "template_WPb3VH3Z";
+            var service_id = "TEST";
+            var template_id = "template_6Dmv5cIK";
 
             emailjs.send(service_id,template_id,params)
                     .then(function(){
