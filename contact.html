@@ -58,9 +58,10 @@
                 <div class="col-sm-6">
                     <h5 class="mar-bot-15 line-height-13">SSN Group LLC.,<br> USA</h5>
                     <p class="location1">
-                        580 Herndon Pwy,Suite 700 Herndon VA 20170<br>
-                        Tel: <a href="tel:5713647032">571-364-7032</a><br>
-                        Cell: <a href="tel:7033384567">703-338-4567</a><br>
+                        580 Herndon Pkwy, Suite 700<br>
+                        Herndon, VA 20170<br>
+                        Tel: <a href="tel:5713646468">571-364-6468</a><br>
+                        Fax: <a href="tel:7036509593">703-650-9593</a><br>
                     </p>
                     <div>
                         <a class="mapbutton mar-top-15" onclick="displayMap('usa');">Go to Map</a>
@@ -74,6 +75,7 @@
                     <p class="location2">
                         15-FM, Sector-F, Ring Rd, behind Arpit Hospital, Scheme 94, Indore, Madhya Pradesh 452016<br>
                         Tel: <a href="tel:+917314218554">+91 731-421-8554</a><br>
+                        <br>
                     </p>
                     <div>
                         <a class="mapbutton mar-top-15" onclick="displayMap('india');">Go to Map</a>
@@ -128,7 +130,7 @@
 
                     <div class="row">
                         <div class="col-sm-6 col-xs-12">
-                            <div class="form-group first-name-box">
+                            <div class="form-group email-box">
                                 <label class="control-label xxs-margin-bot-10">E-Mail <span class="primary-color font-size-20">*</span></label>
                                 <div class="inputGroupContainer">
                                     <div class="input-group">
@@ -141,7 +143,7 @@
                         </div>
 
                         <div class="col-sm-6 col-xs-12">
-                            <div class="form-group last-name-box">
+                            <div class="form-group phone-box">
                                 <label class="control-label xxs-margin-bot-10">Mobile No <span class="primary-color font-size-20">*</span></label>
                                 <div class="inputGroupContainer">
                                     <div class="input-group">
@@ -171,7 +173,7 @@
 
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
-                            <div class="form-group company-box">
+                            <div class="form-group comment-box">
                                 <label class="control-label">Cover Letter </label>
                                 <div class="inputGroupContainer">
                                     <div class="input-group">
@@ -376,11 +378,12 @@
     <div id="footerContent"></div>
 </section>
 
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
     (function(){
-        emailjs.init("user_QjC9ZSKm2Rl96TpEZy1Ov");
+        emailjs.init("user_LPr2hLInUV7y9M8LXVPN3");
 
         var myform = $("form#contact_form");
         $("#submit").click(function() {
@@ -394,8 +397,8 @@
                 return obj;
             }, {});
           // Change to your service ID, or keep using the default service
-            var service_id = "default_service";
-            var template_id = "template_WPb3VH3Z";
+            var service_id = "Gmail";
+            var template_id = "template_w6OfbDfC";
 
             emailjs.send(service_id,template_id,params)
                     .then(function(){
