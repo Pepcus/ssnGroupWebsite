@@ -1183,6 +1183,9 @@ a:hover {
     text-decoration: none;
     border:#00ae6d;
 }
+.tertiary-btn:visited{
+    color:#fff;
+}
 .primary-back{
     background-color: #00ae6d;
 }
