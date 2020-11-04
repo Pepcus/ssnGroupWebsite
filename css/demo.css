@@ -3561,6 +3561,19 @@ svg{
         color: #014a95 !important;
         display: block;
     }
+
+    .navbar-brand {
+        height: 50px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-brand img{
+        width: 150px;
+        margin-left: 10px;
+    }
 }
 
 /*-------------------------------------NavBar end-------------------------------------------------------*/
@@ -3634,7 +3647,7 @@ svg{
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .container {
+    .services-offerings  .container {
         padding-left: 0;
         padding-right: 0;
     }
@@ -3726,6 +3739,15 @@ svg{
     border: 1px solid rgba(0,0,0,.15);
     transition: all .2s ease;
     margin-left: 4%;
+}
+
+@media (max-width: 767px) {
+    .services-offerings__column {
+        width: 48%;
+    }
+    .services-offerings__column:first-child {
+        margin-left: 0;
+    }
 }
 
 .services-offerings__column:hover {
